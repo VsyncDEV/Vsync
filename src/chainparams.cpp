@@ -86,7 +86,7 @@ public:
         pchMessageStart[2] = 0x00;
         pchMessageStart[3] = 0xaa;
         vAlertPubKey = ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013");
-        nDefaultPort = 50020;
+        nDefaultPort = 65010;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Vsync starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
