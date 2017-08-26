@@ -32,8 +32,8 @@
  * @author   Thomas Pornin <thomas.pornin@cryptolog.com>
  */
 
-#ifndef SPH_HVSXI_H__
-#define SPH_HVSXI_H__
+#ifndef SPH_HAMSI_H__
+#define SPH_HAMSI_H__
 
 #include <stddef.h>
 #include "sph_types.h"
