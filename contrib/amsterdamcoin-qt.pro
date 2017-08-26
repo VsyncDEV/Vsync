@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/amsterdamcoin-config.h \
+           src/vsync-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/amsterdamcoin-config.h \
+           src/config/vsync-config.h \
            src/crypto/common.h \
 		   src/crypto/scrypt.h \
            src/crypto/hmac_sha256.h \
@@ -340,7 +340,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/amsterdamcoin.moc \
+           src/qt/vsync.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -381,9 +381,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/amsterdamcoin-cli.cpp \
-           src/amsterdamcoin-tx.cpp \
-           src/amsterdamcoin.cpp \
+           src/vsync-cli.cpp \
+           src/vsync-tx.cpp \
+           src/vsync.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -486,8 +486,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/amsterdamcoin.cpp \
-           src/qt/amsterdamcoinstrings.cpp \
+           src/qt/vsync.cpp \
+           src/qt/vsyncstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -565,7 +565,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_amsterdamcoin.cpp \
+           src/test/test_vsync.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -656,21 +656,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/amsterdamcoin.qrc src/qt/amsterdamcoin_locale.qrc
+RESOURCES += src/qt/vsync.qrc src/qt/vsync_locale.qrc
 
-TRANSLATIONS += src/qt/locale/amsterdamcoin_bg.ts \
-                src/qt/locale/amsterdamcoin_de.ts \
-                src/qt/locale/amsterdamcoin_en.ts \
-                src/qt/locale/amsterdamcoin_es.ts \
-                src/qt/locale/amsterdamcoin_fi.ts \
-                src/qt/locale/amsterdamcoin_fr.ts \
-                src/qt/locale/amsterdamcoin_it.ts \
-                src/qt/locale/amsterdamcoin_ja.ts \
-                src/qt/locale/amsterdamcoin_pl.ts \
-                src/qt/locale/amsterdamcoin_pt.ts \
-                src/qt/locale/amsterdamcoin_ru.ts \
-                src/qt/locale/amsterdamcoin_sk.ts \
-                src/qt/locale/amsterdamcoin_sv.ts \
-                src/qt/locale/amsterdamcoin_vi.ts \
-                src/qt/locale/amsterdamcoin_zh_CN.ts \
-                src/qt/locale/amsterdamcoin_zh_TW.ts
+TRANSLATIONS += src/qt/locale/vsync_bg.ts \
+                src/qt/locale/vsync_de.ts \
+                src/qt/locale/vsync_en.ts \
+                src/qt/locale/vsync_es.ts \
+                src/qt/locale/vsync_fi.ts \
+                src/qt/locale/vsync_fr.ts \
+                src/qt/locale/vsync_it.ts \
+                src/qt/locale/vsync_ja.ts \
+                src/qt/locale/vsync_pl.ts \
+                src/qt/locale/vsync_pt.ts \
+                src/qt/locale/vsync_ru.ts \
+                src/qt/locale/vsync_sk.ts \
+                src/qt/locale/vsync_sv.ts \
+                src/qt/locale/vsync_vi.ts \
+                src/qt/locale/vsync_zh_CN.ts \
+                src/qt/locale/vsync_zh_TW.ts

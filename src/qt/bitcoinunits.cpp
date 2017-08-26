@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case VSX:
-        return QString("amsterdamcoin");
+        return QString("vsync");
     case mVSX:
-        return QString("mamsterdamcoin");
+        return QString("mvsync");
     case uVSX:
-        return QString::fromUtf8("uamsterdamcoin");
+        return QString::fromUtf8("uvsync");
     default:
         return QString("???");
     }

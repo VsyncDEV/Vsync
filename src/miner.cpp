@@ -445,7 +445,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("VsyncMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("amsterdamcoin-miner");
+    RenameThread("vsync-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

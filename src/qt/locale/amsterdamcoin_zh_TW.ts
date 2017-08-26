@@ -208,6 +208,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     </context>
 </TS>

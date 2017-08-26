@@ -610,7 +610,7 @@
         <translation>Mandar coins a una dirección Vsync</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
+        <source>Request payments (generates QR codes and vsync: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -837,8 +837,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (amsterdamcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (vsync.conf).</translation>
     </message>
 </context>
 <context>
@@ -1735,9 +1735,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translations</source>
+https://www.transifex.com/vsync-project/vsync-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translations</translation>
+https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2105,8 +2105,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start amsterdamcoin: click-to-pay handler</source>
-        <translation>No se puede iniciar amsterdamcoin: módulo click-to-pay</translation>
+        <source>Cannot start vsync: click-to-pay handler</source>
+        <translation>No se puede iniciar vsync: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Vsync address or malformed URI parameters.</source>
@@ -3221,7 +3221,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

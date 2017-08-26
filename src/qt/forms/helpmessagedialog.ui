@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../amsterdamcoin.qrc">:/images/about</pixmap>
+      <pixmap resource="../vsync.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -97,7 +97,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../amsterdamcoin.qrc"/>
+  <include location="../vsync.qrc"/>
  </resources>
  <connections>
   <connection>

@@ -570,7 +570,7 @@
         <translation>Отправить монеты на Vsync адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
+        <source>Request payments (generates QR codes and vsync: URIs)</source>
         <translation>Запросить платежи (генерирует QR-код и Vsync: URI)</translation>
     </message>
     <message>
@@ -753,8 +753,8 @@ Address: %4
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (amsterdamcoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (vsync.conf).</translation>
     </message>
 </context>
 <context>
@@ -1555,9 +1555,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translations</source>
+https://www.transifex.com/vsync-project/vsync-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translations</translation>
+https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1962,7 +1962,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Block creation options:</source>
         <translation>Варианты создания блока:</translation>

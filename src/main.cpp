@@ -2279,7 +2279,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("amsterdamcoin-scriptch");
+    RenameThread("vsync-scriptch");
     scriptcheckqueue.Thread();
 }
 

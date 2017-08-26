@@ -300,15 +300,15 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* Vsync features */
-        {"amsterdamcoin", "masternode", &masternode, true, true, false},
-        {"amsterdamcoin", "masternodelist", &masternodelist, true, true, false},
-        {"amsterdamcoin", "mnbudget", &mnbudget, true, true, false},
-        {"amsterdamcoin", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"amsterdamcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"amsterdamcoin", "mnsync", &mnsync, true, true, false},
-        {"amsterdamcoin", "spork", &spork, true, true, false},
+        {"vsync", "masternode", &masternode, true, true, false},
+        {"vsync", "masternodelist", &masternodelist, true, true, false},
+        {"vsync", "mnbudget", &mnbudget, true, true, false},
+        {"vsync", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        {"vsync", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"vsync", "mnsync", &mnsync, true, true, false},
+        {"vsync", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
-        {"amsterdamcoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"vsync", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -573,10 +573,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use amsterdamcoind, or the -server option to amsterdamcoin-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use vsyncd, or the -server option to vsync-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=amsterdamcoinrpc\n"
+                                               "rpcuser=vsyncrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
@@ -1033,7 +1033,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> amsterdamcoin-cli " + methodname + " " + args + "\n";
+    return "> vsync-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

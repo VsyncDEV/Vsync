@@ -486,8 +486,8 @@
         <translation>An eine Vsync-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und amsterdamcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vsync: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und vsync: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -640,8 +640,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "amsterdamcoin.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "vsync.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -2351,7 +2351,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>

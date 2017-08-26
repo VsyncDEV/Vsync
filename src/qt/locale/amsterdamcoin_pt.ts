@@ -404,7 +404,7 @@
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Conectar usando proxy SOCKS5</translation>

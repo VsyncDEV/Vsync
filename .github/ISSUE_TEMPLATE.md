@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to Vsync Core.
-General Vsync questions and/or support requests and are best directed to the [Vsync Slack](http://amsterdamcoin.slack.com).
+General Vsync questions and/or support requests and are best directed to the [Vsync Slack](http://vsync.slack.com).
 
 ### Describe the issue
 

@@ -32,7 +32,7 @@
   <string>Vsync-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.amsterdamcoin.Vsync-Qt</string>
+  <string>io.vsync.Vsync-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.amsterdamcoin.VsyncPayment</string>
+      <string>io.vsync.VsyncPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>amsterdamcoin</string>
+        <string>vsync</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.amsterdamcoin.paymentrequest</string>
+      <string>io.vsync.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Vsync payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-amsterdamcoin-payment-request</string>
+        <string>application/x-vsync-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>amsterdamcoinpaymentrequest</string>
+          <string>vsyncpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.amsterdamcoin.paymentrequest</string>
+        <string>io.vsync.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

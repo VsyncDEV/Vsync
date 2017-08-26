@@ -3,17 +3,17 @@ Description=Vsync's distributed currency daemon
 After=network.target
 
 [Service]
-User=amsterdamcoin
-Group=amsterdamcoin
+User=vsync
+Group=vsync
 
 Type=forking
-PIDFile=/var/lib/amsterdamcoind/amsterdamcoind.pid
+PIDFile=/var/lib/vsyncd/vsyncd.pid
 
-ExecStart=/usr/bin/amsterdamcoind -daemon -pid=/var/lib/amsterdamcoind/amsterdamcoind.pid \
-          -conf=/etc/amsterdamcoin/amsterdamcoin.conf -datadir=/var/lib/amsterdamcoind
+ExecStart=/usr/bin/vsyncd -daemon -pid=/var/lib/vsyncd/vsyncd.pid \
+          -conf=/etc/vsync/vsync.conf -datadir=/var/lib/vsyncd
 
-ExecStop=-/usr/bin/amsterdamcoin-cli -conf=/etc/amsterdamcoin/amsterdamcoin.conf \
-         -datadir=/var/lib/amsterdamcoind stop
+ExecStop=-/usr/bin/vsync-cli -conf=/etc/vsync/vsync.conf \
+         -datadir=/var/lib/vsyncd stop
 
 Restart=always
 PrivateTmp=true

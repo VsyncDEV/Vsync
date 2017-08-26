@@ -114,12 +114,12 @@ public:
         assert(hashGenesisBlock == uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
         assert(genesis.hashMerkleRoot == uint256("0xcdf9a0f882351aa571e3f647ef82858c08b5eb4f1847df68787f15cc42c36529"));
 		
-        vSeeds.push_back(CDNSSeedData("nl-1.amsterdamcoin.com", "nl-1.amsterdamcoin.com"));
-        vSeeds.push_back(CDNSSeedData("us-1.amsterdamcoin.com", "us-1.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("us-2.amsterdamcoin.com", "us-2.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("eu-1.amsterdamcoin.com", "eu-1.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("eu-2.amsterdamcoin.com", "eu-2.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("asia-1.amsterdamcoin.com", "asia-1.amsterdamcoin.com"));
+        vSeeds.push_back(CDNSSeedData("nl-1.vsync.com", "nl-1.vsync.com"));
+        vSeeds.push_back(CDNSSeedData("us-1.vsync.com", "us-1.vsync.com"));
+		vSeeds.push_back(CDNSSeedData("us-2.vsync.com", "us-2.vsync.com"));
+		vSeeds.push_back(CDNSSeedData("eu-1.vsync.com", "eu-1.vsync.com"));
+		vSeeds.push_back(CDNSSeedData("eu-2.vsync.com", "eu-2.vsync.com"));
+		vSeeds.push_back(CDNSSeedData("asia-1.vsync.com", "asia-1.vsync.com"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -178,18 +178,18 @@ public:
         //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin-testnet.seed2.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "vsync-testnet.seed.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "vsync-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet amsterdamcoin addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet amsterdamcoin script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet vsync addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet vsync script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet amsterdamcoin BIP32 pubkeys start with 'DRKV'
+        // Testnet vsync BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet amsterdamcoin BIP32 prvkeys start with 'DRKP'
+        // Testnet vsync BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet amsterdamcoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet vsync BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;

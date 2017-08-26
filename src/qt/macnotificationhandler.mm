@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.amsterdamcoin.Vsync-Qt";
+        return @"io.vsync.Vsync-Qt";
     } else {
         return [self __bundleIdentifier];
     }

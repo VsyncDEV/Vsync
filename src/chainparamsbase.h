@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between amsterdamcoin-cli and amsterdamcoind)
+ * CBaseChainParams defines the base parameters (shared between vsync-cli and vsyncd)
  * of a given instance of the Vsync system.
  */
 class CBaseChainParams

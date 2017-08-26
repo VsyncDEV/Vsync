@@ -570,8 +570,8 @@
         <translation>Invia monete all' indirizzo Vsync</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e amsterdamcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vsync: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e vsync: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -980,7 +980,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

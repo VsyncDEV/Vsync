@@ -781,7 +781,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
+        <source>Request payments (generates QR codes and vsync: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1077,7 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2194,7 +2194,7 @@ Please check the address and try again.</source>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translations</source>
+https://www.transifex.com/vsync-project/vsync-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2688,7 +2688,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start amsterdamcoin: click-to-pay handler</source>
+        <source>Cannot start vsync: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5010,9 +5010,9 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
 </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
-        <location filename="../amsterdamcoinstrings.cpp" line="+12"/>
+        <location filename="../vsyncstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5248,10 +5248,10 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+4"/>
-        <source>To use amsterdamcoind, or the -server option to amsterdamcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use vsyncd, or the -server option to vsync-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=amsterdamcoinrpc
+rpcuser=vsyncrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

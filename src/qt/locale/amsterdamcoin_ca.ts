@@ -1040,7 +1040,7 @@
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>vsync-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>
