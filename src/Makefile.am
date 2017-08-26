@@ -60,15 +60,15 @@ else
 LIBBITCOIN_CONSENSUS=
 endif
 
-bin_PROGRAMS =
+bin_PROGRVSX =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += amsterdamcoind
+  bin_PROGRVSX += amsterdamcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += amsterdamcoin-cli amsterdamcoin-tx
+  bin_PROGRVSX += amsterdamcoin-cli amsterdamcoin-tx
 endif
 
 .PHONY: FORCE

@@ -74,10 +74,10 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
-"Fees (in AMS/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in VSX/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
-"Fees (in AMS/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in VSX/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -165,10 +165,10 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 AMS."),
+"transaction that are not equal 10000 VSX."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"AMS."),
+"VSX."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -264,7 +264,7 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Error: Wallet locked, unable to create 
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Error: You already have pending entries in the Obfuscation pool"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Fee (in AMS/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("amsterdamcoin-core", "Fee (in VSX/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Found enough users, signing ( waiting %s )"),
@@ -295,7 +295,7 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Invalid netmask specified in -whitelist
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Keep N AMS anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("amsterdamcoin-core", "Keep N VSX anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Last Obfuscation was too recent."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Last successful Obfuscation action was too recent."),

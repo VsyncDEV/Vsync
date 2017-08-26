@@ -1,4 +1,4 @@
-bin_PROGRAMS += qt/amsterdamcoin-qt
+bin_PROGRVSX += qt/amsterdamcoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # amsterdamcoin qt core #
