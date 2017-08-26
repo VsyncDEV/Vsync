@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie AmsterdamCoin überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie Vsync überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie AmsterdamCoin empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie Vsync empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre AmsterdamCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie AmsterdamCoin überweisen.</translation>
+        <source>These are your Vsync addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre Vsync-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Vsync überweisen.</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre AmsterdamCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Vsync addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre Vsync-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>AmsterdamCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer VSXs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -478,12 +478,12 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
-        <source>Send coins to a AmsterdamCoin address</source>
-        <translation>An eine AmsterdamCoin-Adresse überweisen</translation>
+        <source>Send coins to a Vsync address</source>
+        <translation>An eine Vsync-Adresse überweisen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
@@ -498,24 +498,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About AmsterdamCoin Core</source>
-        <translation>Über.AmsterdamCoin Core</translation>
+        <source>&amp;About Vsync Core</source>
+        <translation>Über.Vsync Core</translation>
     </message>
     <message>
-        <source>Show information about AmsterdamCoin Core</source>
-        <translation>Zeigt Informationen über AmsterdamCoin Core</translation>
+        <source>Show information about Vsync Core</source>
+        <translation>Zeigt Informationen über Vsync Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AmsterdamCoin</source>
-        <translation>Konfiguration von AmsterdamCoin verändern</translation>
+        <source>Modify configuration options for Vsync</source>
+        <translation>Konfiguration von Vsync verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your AmsterdamCoin addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer AmsterdamCoin-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your Vsync addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer Vsync-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AmsterdamCoin addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten AmsterdamCoin-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified Vsync addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Vsync-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -773,8 +773,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AmsterdamCoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige AmsterdamCoin-Adresse.</translation>
+        <source>The entered address "%1" is not a valid Vsync address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Vsync-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -819,16 +819,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About AmsterdamCoin Core</source>
-        <translation>Über AmsterdamCoin Core</translation>
+        <source>About Vsync Core</source>
+        <translation>Über Vsync Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -874,16 +874,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to AmsterdamCoin Core.</source>
-        <translation>Willkommen zu AmsterdamCoin Core.</translation>
+        <source>Welcome to Vsync Core.</source>
+        <translation>Willkommen zu Vsync Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AmsterdamCoin Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie AmsterdamCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where Vsync Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie Vsync Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core will download and store a copy of the AmsterdamCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AmsterdamCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>Vsync Core will download and store a copy of the Vsync block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Vsync Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -894,8 +894,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1269,8 +1269,8 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a AmsterdamCoin address (e.g. %1)</source>
-        <translation>AmsterdamCoin-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Vsync address (e.g. %1)</source>
+        <translation>Vsync-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1642,8 +1642,8 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The AmsterdamCoin address to send the payment to</source>
-        <translation>AmsterdamCoin-Adresse, an die überwiesen werden soll</translation>
+        <source>The Vsync address to send the payment to</source>
+        <translation>Vsync-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1682,8 +1682,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the AmsterdamCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AmsterdamCoin network.</source>
-        <translation>Eine an die AmsterdamCoin-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das AmsterdamCoin-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the Vsync: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vsync network.</source>
+        <translation>Eine an die Vsync-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Vsync-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1709,8 +1709,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>AmsterdamCoin Core is shutting down...</source>
-        <translation>AmsterdamCoin Core wird beendet...</translation>
+        <source>Vsync Core is shutting down...</source>
+        <translation>Vsync Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1751,8 +1751,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1767,8 +1767,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The AmsterdamCoin Core developers</source>
-        <translation>Die AmsterdamCoin Core Entwickler</translation>
+        <source>The Vsync Core developers</source>
+        <translation>Die Vsync Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2501,8 +2501,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart AmsterdamCoin Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte AmsterdamCoin Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart Vsync Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte Vsync Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

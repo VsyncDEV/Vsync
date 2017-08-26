@@ -58,12 +58,12 @@
         <translation>Отправка адресов</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши AmsterdamCoin-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your Vsync addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Vsync-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши AmsterdamCoin-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your Vsync addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Vsync-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>AmsterdamCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>AmsterdamCoin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши AmsterdamCoin от кражи с использованием вредоносного ПО.</translation>
+        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>Vsync сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Vsync от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The AmsterdamCoin address to sign the message with</source>
-        <translation>Адрес AmsterdamCoin для подписи сообщения с помощью</translation>
+        <source>The Vsync address to sign the message with</source>
+        <translation>Адрес Vsync для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -255,8 +255,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AmsterdamCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес AmsterdamCoin</translation>
+        <source>Sign the message to prove you own this Vsync address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Vsync</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -562,16 +562,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
-        <source>Send coins to a AmsterdamCoin address</source>
-        <translation>Отправить монеты на AmsterdamCoin адрес</translation>
+        <source>Send coins to a Vsync address</source>
+        <translation>Отправить монеты на Vsync адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and amsterdamcoin: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и AmsterdamCoin: URI)</translation>
+        <translation>Запросить платежи (генерирует QR-код и Vsync: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -582,16 +582,16 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About AmsterdamCoin Core</source>
-        <translation>&amp;О AmsterdamCoin Core</translation>
+        <source>&amp;About Vsync Core</source>
+        <translation>&amp;О Vsync Core</translation>
     </message>
     <message>
-        <source>Show information about AmsterdamCoin Core</source>
-        <translation>Показать информацию о AmsterdamCoin Core</translation>
+        <source>Show information about Vsync Core</source>
+        <translation>Показать информацию о Vsync Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AmsterdamCoin</source>
-        <translation>Изменение параметров конфигурации AmsterdamCoin</translation>
+        <source>Modify configuration options for Vsync</source>
+        <translation>Изменение параметров конфигурации Vsync</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -630,12 +630,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core client</source>
-        <translation>Клиент AmsterdamCoin Core</translation>
+        <source>Vsync Core client</source>
+        <translation>Клиент Vsync Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AmsterdamCoin network</source>
-        <translation><numerusform>%n активное подключение к сети AmsterdamCoin</numerusform><numerusform>%n активных подключений к сети AmsterdamCoin</numerusform><numerusform>%n активных подключений к сети AmsterdamCoin</numerusform><numerusform>%n активных подключений к сети AmsterdamCoin</numerusform></translation>
+        <source>%n active connection(s) to Vsync network</source>
+        <translation><numerusform>%n активное подключение к сети Vsync</numerusform><numerusform>%n активных подключений к сети Vsync</numerusform><numerusform>%n активных подключений к сети Vsync</numerusform><numerusform>%n активных подключений к сети Vsync</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -962,8 +962,8 @@ Address: %4
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AmsterdamCoin address.</source>
-        <translation>Введенный адрес "%1" не является AmsterdamCoin адресом.</translation>
+        <source>The entered address "%1" is not a valid Vsync address.</source>
+        <translation>Введенный адрес "%1" не является Vsync адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1008,16 +1008,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About AmsterdamCoin Core</source>
-        <translation>О AmsterdamCoin Core</translation>
+        <source>About Vsync Core</source>
+        <translation>О Vsync Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1059,16 +1059,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to AmsterdamCoin Core.</source>
-        <translation>Добро пожаловать в AmsterdamCoin Core.</translation>
+        <source>Welcome to Vsync Core.</source>
+        <translation>Добро пожаловать в Vsync Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AmsterdamCoin Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные AmsterdamCoin Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Vsync Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Vsync Core.</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core will download and store a copy of the AmsterdamCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AmsterdamCoin Core загрузит и сохранит копию цепочки блоков AmsterdamCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Vsync Core will download and store a copy of the Vsync block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Vsync Core загрузит и сохранит копию цепочки блоков Vsync. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1079,8 +1079,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1237,12 +1237,12 @@ Address: %4
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AmsterdamCoin addresses after it matures.
-To Add: enter percentage to give and AmsterdamCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vsync addresses after it matures.
+To Add: enter percentage to give and Vsync address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие AmsterdamCoin адреса.
-Для добавления: введите передаваемый процент и AmsterdamCoin адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и удерживание, после их созревания, на другие Vsync адреса.
+Для добавления: введите передаваемый процент и Vsync адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1412,16 +1412,16 @@ Please check the address and try again.</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AmsterdamCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки AmsterdamCoin.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Vsync.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AmsterdamCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки AmsterdamCoin.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Vsync.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AmsterdamCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки AmsterdamCoin.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Vsync.</translation>
     </message>
 </context>
 <context>
@@ -1482,8 +1482,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the AmsterdamCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт AmsterdamCoin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Vsync client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Vsync через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1502,12 +1502,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start AmsterdamCoin after logging in to the system.</source>
-        <translation>Автоматически запускать AmsterdamCoin после входа в систему.</translation>
+        <source>Automatically start Vsync after logging in to the system.</source>
+        <translation>Автоматически запускать Vsync после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start AmsterdamCoin on system login</source>
-        <translation>&amp;Запускать AmsterdamCoin при входе в систему</translation>
+        <source>&amp;Start Vsync on system login</source>
+        <translation>&amp;Запускать Vsync при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1522,8 +1522,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of AmsterdamCoin to keep anonymized</source>
-        <translation>Количество AmsterdamCoin, держащихся анонимизированными</translation>
+        <source>Amount of Vsync to keep anonymized</source>
+        <translation>Количество Vsync, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1550,8 +1550,8 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AmsterdamCoin.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска AmsterdamCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Vsync.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Vsync.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1564,8 +1564,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the AmsterdamCoin network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети AmsterdamCoin через SOCKS5 прокси.</translation>
+        <source>Connect to the Vsync network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Vsync через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1803,8 +1803,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AmsterdamCoin address to sign the message with</source>
-        <translation>Адрес AmsterdamCoin для подписи сообщения с помощью</translation>
+        <source>The Vsync address to sign the message with</source>
+        <translation>Адрес Vsync для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AmsterdamCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес AmsterdamCoin</translation>
+        <source>Sign the message to prove you own this Vsync address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Vsync</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1866,8 +1866,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     </context>
 <context>
@@ -1992,8 +1992,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The AmsterdamCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики AmsterdamCoin Core</translation>
+        <source>Copyright (C) 2015-%i The Vsync Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики Vsync Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

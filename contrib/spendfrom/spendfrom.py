@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the amsterdamcoin data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/AmsterdamCoin/")
+        return os.path.expanduser("~/Library/Application Support/Vsync/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "AmsterdamCoin")
+        return os.path.join(os.environ['APPDATA'], "Vsync")
     return os.path.expanduser("~/.amsterdamcoin")
 
 def read_bitcoin_config(dbdir):

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The AmsterdamCoin developers
+// Copyright (c) 2015-2017 The Vsync developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeAmsterdamCoinAmount"))
-        settings.setValue("nAnonymizeAmsterdamCoinAmount", 1000);
+    if (!settings.contains("nAnonymizeVsyncAmount"))
+        settings.setValue("nAnonymizeVsyncAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeAmsterdamCoinAmount = settings.value("nAnonymizeAmsterdamCoinAmount").toLongLong();
+    nAnonymizeVsyncAmount = settings.value("nAnonymizeVsyncAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeAmsterdamCoinAmount"))
-        SoftSetArg("-anonymizeamsterdamcoinamount", settings.value("nAnonymizeAmsterdamCoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeVsyncAmount"))
+        SoftSetArg("-anonymizeamsterdamcoinamount", settings.value("nAnonymizeVsyncAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeAmsterdamCoinAmount:
-            return QVariant(nAnonymizeAmsterdamCoinAmount);
+        case AnonymizeVsyncAmount:
+            return QVariant(nAnonymizeVsyncAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -337,10 +337,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeAmsterdamCoinAmount:
-            nAnonymizeAmsterdamCoinAmount = value.toInt();
-            settings.setValue("nAnonymizeAmsterdamCoinAmount", nAnonymizeAmsterdamCoinAmount);
-            emit anonymizeAmsterdamCoinAmountChanged(nAnonymizeAmsterdamCoinAmount);
+        case AnonymizeVsyncAmount:
+            nAnonymizeVsyncAmount = value.toInt();
+            settings.setValue("nAnonymizeVsyncAmount", nAnonymizeVsyncAmount);
+            emit anonymizeVsyncAmountChanged(nAnonymizeVsyncAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

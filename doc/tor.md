@@ -1,7 +1,7 @@
-TOR SUPPORT IN AmsterdamCoin
+TOR SUPPORT IN Vsync
 =======================
 
-It is possible to run AmsterdamCoin as a Tor hidden service, and connect to such services.
+It is possible to run Vsync as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -10,10 +10,10 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-Run AmsterdamCoin behind a Tor proxy
+Run Vsync behind a Tor proxy
 ----------------------------------
 
-The first step is running AmsterdamCoin behind a Tor proxy. This will already make all
+The first step is running Vsync behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 ```
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -46,7 +46,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
 ./amsterdamcoind -proxy=127.0.0.1:9050
 ```
 
-Run a AmsterdamCoin hidden server
+Run a Vsync hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -110,7 +110,7 @@ for normal IPv4/IPv6 communication, use:
 ./amsterdamcoind -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
 ```
 
-List of known AmsterdamCoin Tor relays
+List of known Vsync Tor relays
 ------------------------------------
 ```
 y5kcscnhpygvvnjn.onion:989

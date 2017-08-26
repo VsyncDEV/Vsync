@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=AmsterdamCoin
-Comment=AmsterdamCoin P2P Cryptocurrency
-Comment[fr]=AmsterdamCoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=AmsterdamCoin, eşten eşe kriptografik sanal para birimi
+Name=Vsync
+Comment=Vsync P2P Cryptocurrency
+Comment[fr]=Vsync, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Vsync, eşten eşe kriptografik sanal para birimi
 Exec=amsterdamcoin-qt %u
 Terminal=false
 Type=Application

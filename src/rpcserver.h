@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * AmsterdamCoin RPC command dispatcher.
+ * Vsync RPC command dispatcher.
  */
 class CRPCTable
 {

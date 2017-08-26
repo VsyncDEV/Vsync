@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2015 The Dash Developers
-// Copyright (c) 2015-2017 The AmsterdamCoin developers
+// Copyright (c) 2015-2017 The Vsync developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,9 +32,9 @@ Value mnbudget(const Array& params, bool fHelp)
             "\nAvailable commands:\n"
             "  prepare            - Prepare proposal for network by signing and creating tx\n"
             "  submit             - Submit proposal for network\n"
-            "  vote-many          - Vote on a AmsterdamCoin initiative\n"
-            "  vote-alias         - Vote on a AmsterdamCoin initiative\n"
-            "  vote               - Vote on a AmsterdamCoin initiative/budget\n"
+            "  vote-many          - Vote on a Vsync initiative\n"
+            "  vote-alias         - Vote on a Vsync initiative\n"
+            "  vote               - Vote on a Vsync initiative/budget\n"
             "  getvotes           - Show current masternode budgets\n"
             "  getinfo            - Show current masternode budgets\n"
             "  show               - Show all budgets\n"
@@ -91,9 +91,9 @@ Value mnbudget(const Array& params, bool fHelp)
 
         CBitcoinAddress address(params[5].get_str());
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid AmsterdamCoin address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Vsync address");
 
-        // Parse AmsterdamCoin address
+        // Parse Vsync address
         CScript scriptPubKey = GetScriptForDestination(address.Get());
         CAmount nAmount = AmountFromValue(params[6]);
 
@@ -170,9 +170,9 @@ Value mnbudget(const Array& params, bool fHelp)
 
         CBitcoinAddress address(params[5].get_str());
         if (!address.IsValid())
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid AmsterdamCoin address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Vsync address");
 
-        // Parse AmsterdamCoin address
+        // Parse Vsync address
         CScript scriptPubKey = GetScriptForDestination(address.Get());
         CAmount nAmount = AmountFromValue(params[6]);
         uint256 hash = ParseHashV(params[7], "parameter 1");

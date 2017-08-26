@@ -214,16 +214,16 @@
         <translation>&amp;Eines</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
-        <source>&amp;About AmsterdamCoin Core</source>
-        <translation>&amp;Sobre AmsterdamCoin Core</translation>
+        <source>&amp;About Vsync Core</source>
+        <translation>&amp;Sobre Vsync Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AmsterdamCoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa AmsterdamCoin</numerusform><numerusform>%n connexions actives a la xarxa AmsterdamCoin</numerusform></translation>
+        <source>%n active connection(s) to Vsync network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Vsync</numerusform><numerusform>%n connexions actives a la xarxa Vsync</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -392,12 +392,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
-        <source>About AmsterdamCoin Core</source>
-        <translation>Sobre AmsterdamCoin Core</translation>
+        <source>About Vsync Core</source>
+        <translation>Sobre Vsync Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -415,12 +415,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to AmsterdamCoin Core.</source>
-        <translation>Benvingut a AmsterdamCoin Core.</translation>
+        <source>Welcome to Vsync Core.</source>
+        <translation>Benvingut a Vsync Core.</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Vsync Core</source>
+        <translation>Vsync Core</translation>
     </message>
     <message>
         <source>Version %1</source>

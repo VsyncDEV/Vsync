@@ -13,7 +13,7 @@
  * for both amsterdamcoind and amsterdamcoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("AmsterdamCoin Core");
+const std::string CLIENT_NAME("Vsync Core");
 
 /**
  * Client version number

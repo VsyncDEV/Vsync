@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The AmsterdamCoin developers
+// Copyright (c) 2015-2017 The Vsync developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "chainparams.h"
@@ -87,16 +87,16 @@ public:
         pchMessageStart[3] = 0xaa;
         vAlertPubKey = ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013");
         nDefaultPort = 50020;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // AmsterdamCoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Vsync starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 minute
-        nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
+        nTargetTimespan = 1 * 60; // Vsync: 1 minute
+        nTargetSpacing = 1 * 60;  // Vsync: 1 minute
         nLastPOWBlock = 259200;
         nMaturity = 101;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "AmsterdamCoin 22-07-2017";
+        const char* pszTimestamp = "Vsync 22-07-2017";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -167,8 +167,8 @@ public:
         vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
         nDefaultPort = 51474;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 day
-        nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
+        nTargetTimespan = 1 * 60; // Vsync: 1 day
+        nTargetSpacing = 1 * 60;  // Vsync: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -227,8 +227,8 @@ public:
         pchMessageStart[3] = 0xac;
         nSubsidyHalvingInterval = 150;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // AmsterdamCoin: 1 day
-        nTargetSpacing = 1 * 60;        // AmsterdamCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Vsync: 1 day
+        nTargetSpacing = 1 * 60;        // Vsync: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

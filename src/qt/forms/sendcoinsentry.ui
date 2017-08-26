@@ -51,7 +51,7 @@
       <item>
        <widget class="QValidatedLineEdit" name="payTo">
         <property name="toolTip">
-         <string>The AmsterdamCoin address to send the payment to</string>
+         <string>The Vsync address to send the payment to</string>
         </property>
        </widget>
       </item>
@@ -154,7 +154,7 @@
     <item row="3" column="1">
      <widget class="QLabel" name="messageTextLabel">
       <property name="toolTip">
-       <string>A message that was attached to the AmsterdamCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AmsterdamCoin network.</string>
+       <string>A message that was attached to the Vsync: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vsync network.</string>
       </property>
       <property name="textFormat">
        <enum>Qt::PlainText</enum>
