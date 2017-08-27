@@ -1,4 +1,4 @@
-bin_PROGRVSX += qt/vsync-qt
+bin_PROGRAMS += qt/vsync-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # vsync qt core #

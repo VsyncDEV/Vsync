@@ -60,15 +60,15 @@ else
 LIBBITCOIN_CONSENSUS=
 endif
 
-bin_PROGRVSX =
+bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRVSX += vsyncd
+  bin_PROGRAMS += vsyncd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRVSX += vsync-cli vsync-tx
+  bin_PROGRAMS += vsync-cli vsync-tx
 endif
 
 .PHONY: FORCE

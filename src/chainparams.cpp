@@ -81,10 +81,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x00;
-        pchMessageStart[1] = 0x22;
-        pchMessageStart[2] = 0x00;
-        pchMessageStart[3] = 0xaa;
+        pchMessageStart[0] = 0x21;
+        pchMessageStart[1] = 0x55;
+        pchMessageStart[2] = 0x0a;
+        pchMessageStart[3] = 0x5a;
         vAlertPubKey = ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013");
         nDefaultPort = 65010;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Vsync starting difficulty is 1 / 2^12
@@ -96,7 +96,7 @@ public:
         nLastPOWBlock = 259200;
         nMaturity = 101;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "Vsync 22-07-2017";
+        const char* pszTimestamp = "Vsync 27-08-2017";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -107,21 +107,23 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1500685200;
+        genesis.nTime = 1503858596;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1402465;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
-        assert(genesis.hashMerkleRoot == uint256("0xcdf9a0f882351aa571e3f647ef82858c08b5eb4f1847df68787f15cc42c36529"));
 		
-        vSeeds.push_back(CDNSSeedData("nl-1.vsync.com", "nl-1.vsync.com"));
-        vSeeds.push_back(CDNSSeedData("us-1.vsync.com", "us-1.vsync.com"));
-		vSeeds.push_back(CDNSSeedData("us-2.vsync.com", "us-2.vsync.com"));
-		vSeeds.push_back(CDNSSeedData("eu-1.vsync.com", "eu-1.vsync.com"));
-		vSeeds.push_back(CDNSSeedData("eu-2.vsync.com", "eu-2.vsync.com"));
-		vSeeds.push_back(CDNSSeedData("asia-1.vsync.com", "asia-1.vsync.com"));
+		Logprintf("recalculating params for mainnet.\n");
+		for(genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++){ } 
+		Logprintf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+		Logprintf("new mainnet genesis nonce: %s\n", genesis.nNonce.ToString().c_str());
+		Logprintf("new mainnet genesis hash: %s\n", genesis.GetHash().ToString().c_str());		
+
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
+        vSeeds.push_back(CDNSSeedData("vsyncseed.dyndns.org", "vsyncseed.dyndns.org"));
+		
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();

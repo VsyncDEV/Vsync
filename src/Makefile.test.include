@@ -1,5 +1,5 @@
 TESTS += test/test_vsync test/bitcoin-util-test.py
-bin_PROGRVSX += test/test_vsync
+bin_PROGRAMS += test/test_vsync
 TEST_SRCDIR = test
 TEST_BINARY=test/test_vsync$(EXEEXT)
 
