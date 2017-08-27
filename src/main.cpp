@@ -1615,33 +1615,33 @@ int64_t GetBlockValue(int nHeight)
     }
 
     if (nHeight == 0) {
-        nSubsidy = 80000000 * COIN;
+        nSubsidy = 125000000 * COIN;
     } else if (nHeight < 86400 && nHeight > 0) {
-        nSubsidy = 7.5 * COIN;
+        nSubsidy = 225 * COIN;
     } else if (nHeight < 151200 && nHeight >= 86400) {
-        nSubsidy = 7.5 * COIN;
+        nSubsidy = 225 * COIN;
     } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
-        nSubsidy = 5 * COIN;
+        nSubsidy = 80 * COIN;
     } else if (nHeight <= 302399 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 4.75 * COIN;
+        nSubsidy = 75 * COIN;
     } else if (nHeight <= 345599 && nHeight >= 302400) {
-        nSubsidy = 4.5 * COIN;
+        nSubsidy = 67 * COIN;
     } else if (nHeight <= 388799 && nHeight >= 345600) {
-        nSubsidy = 4.25 * COIN;
+        nSubsidy = 59 * COIN;
     } else if (nHeight <= 431999 && nHeight >= 388800) {
-        nSubsidy = 4 * COIN;
+        nSubsidy = 51 * COIN;
     } else if (nHeight <= 475199 && nHeight >= 432000) {
-        nSubsidy = 3.75 * COIN;
+        nSubsidy = 43 * COIN;
     } else if (nHeight <= 518399 && nHeight >= 475200) {
-        nSubsidy = 3.5 * COIN;
+        nSubsidy = 35 * COIN;
     } else if (nHeight <= 561599 && nHeight >= 518400) {
-        nSubsidy = 3.25 * COIN;
+        nSubsidy = 27 * COIN;
     } else if (nHeight <= 604799 && nHeight >= 561600) {
-        nSubsidy = 3 * COIN;
+        nSubsidy = 19 * COIN;
     } else if (nHeight <= 647999 && nHeight >= 604800) {
-        nSubsidy = 2.25 * COIN;
+        nSubsidy = 11 * COIN;
     } else if (nHeight >= 648000) {
-        nSubsidy = 2 * COIN;
+        nSubsidy = 3 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
