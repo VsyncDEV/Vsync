@@ -43,14 +43,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"))
-	(2, uint256("0x00000bfa9f5517a83532d103038e78941ed28eda11b8fa920cc6c1659e569f75"));
-    //(1, uint256(""));
-    //(616764, uint256("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")) //first block to use modifierV2
-    //(623933, uint256("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7"));
+	(0, uint256("0x00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72"))
+	(18, uint256("0x00000404d9ff3b515bc295942600aba4cab0e316a43cb3b31be03973b3e0c728"));
+	
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1502133379, // * UNIX timestamp of last checkpoint block
+    1503858596, // * UNIX timestamp of last checkpoint block
     2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -109,19 +107,15 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1503858596;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 525433;
         hashGenesisBlock = genesis.GetHash();
 		
-		Logprintf("recalculating params for mainnet.\n");
-		for(genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++){ } 
-		Logprintf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-		Logprintf("new mainnet genesis nonce: %s\n", genesis.nNonce.ToString().c_str());
-		Logprintf("new mainnet genesis hash: %s\n", genesis.GetHash().ToString().c_str());		
-
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72"));
+        assert(genesis.hashMerkleRoot == uint256("0x55e07427d0ca8579ca7296908f464699df9a54782d28bda012656c9d33a3a3c4"));
 		
         vSeeds.push_back(CDNSSeedData("vsyncseed.dyndns.org", "vsyncseed.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("node.vsync.pw", "node.vsync.pw"));
+		vSeeds.push_back(CDNSSeedData("node1.vsync.pw", "node1.vsync.pw"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -143,7 +137,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013";
         
-        strObfuscationPoolDummyAddress = "AWSbBnzmNkjDVaYHX7vkL1MqD96pRYWtZo";
+        strObfuscationPoolDummyAddress = "VTHprUHgceGPTTaAmajjcELftpUTKNhyJt";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
