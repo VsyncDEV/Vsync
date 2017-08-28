@@ -1,5 +1,5 @@
 <h2><strong>Vsync Staging Repository (Version 4.0.0)</strong></h2>
-<p>More information at vsync.com Visit our ANN thread at https://bitcointalk.org/index.php?topic=1152947.0</p>
+<p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=1152947.0</p>
 <h3><strong>Coin specs:</strong></h3>
 <p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>
 <ul>
@@ -62,10 +62,10 @@
 <p>Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured with collateral of 100K VSX</p>
 
 <h2>Live blockchain statistics</h2>
-    <img src="https://stats.vsync.com/Stats/ConnectionCount" alt="Connection count" /><br />
-    <img src="https://stats.vsync.com/Stats/MasternodeCount" alt="Masternode count"/><br/>
-    <img src="https://stats.vsync.com/Stats/BlockCount" alt="Block count"/><br/>
-    <img src="https://stats.vsync.com/Stats/LastBlock" alt="Last block"/><br/>
-    <img src="https://stats.vsync.com/Stats/TotalSupply" alt="Total supply"/><br/>
-    <img src="https://stats.vsync.com/Stats/PowDifficulty" alt="PoW difficulty"/><br/>
-    <img src="https://stats.vsync.com/Stats/NetworkHashRate" alt="Network hashrate" /><br />
+    <img src="https://stats.vsync.pw/Stats/ConnectionCount" alt="Connection count" /><br />
+    <img src="https://stats.vsync.pw/Stats/MasternodeCount" alt="Masternode count"/><br/>
+    <img src="https://stats.vsync.pw/Stats/BlockCount" alt="Block count"/><br/>
+    <img src="https://stats.vsync.pw/Stats/LastBlock" alt="Last block"/><br/>
+    <img src="https://stats.vsync.pw/Stats/TotalSupply" alt="Total supply"/><br/>
+    <img src="https://stats.vsync.pw/Stats/PowDifficulty" alt="PoW difficulty"/><br/>
+    <img src="https://stats.vsync.pw/Stats/NetworkHashRate" alt="Network hashrate" /><br />

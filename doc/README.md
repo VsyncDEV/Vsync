@@ -3,7 +3,7 @@ Vsync Core
 
 Setup
 ---------------------
-[Vsync Core](http://vsync.com/wallet) is the original Vsync client and it builds the backbone of the network. However, it downloads and stores the entire history of Vsync transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Vsync Core](http://vsync.pw/wallet) is the original Vsync client and it builds the backbone of the network. However, it downloads and stores the entire history of Vsync transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -28,8 +28,8 @@ Drag Vsync-Qt to your applications folder, and then run Vsync-Qt.
 
 * See the documentation at the [Vsync Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Vsync Forum](http://forum.vsync.com/).
-* Join one of our Slack groups [Vsync Slack Groups](https://vsync.com/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Vsync Forum](http://forum.vsync.pw/).
+* Join one of our Slack groups [Vsync Slack Groups](https://vsync.pw/slack-logins/).
 
 Building
 ---------------------
@@ -55,7 +55,7 @@ The Vsync repo's [root README](https://github.com/Vsync-Project/Vsync/blob/maste
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Vsync](http://forum.vsync.com/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Vsync](http://forum.vsync.pw/) forum.
 * Join the [Vsync-Dev](https://vsync-dev.slack.com/) Slack group ([Sign-Up](https://vsync-dev.herokuapp.com/)).
 
 ### Miscellaneous

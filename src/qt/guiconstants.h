@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Vsync"
-#define QAPP_ORG_DOMAIN "vsync.com"
+#define QAPP_ORG_DOMAIN "vsync.pw"
 #define QAPP_APP_NAME_DEFAULT "Vsync-Qt"
 #define QAPP_APP_NAME_TESTNET "Vsync-Qt-testnet"
 
