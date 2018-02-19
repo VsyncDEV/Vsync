@@ -519,13 +519,6 @@ boost::filesystem::path GetMasternodeConfigFile()
     return pathConfigFile;
 }
 
-boost::filesystem::path GetVsyncConfigFile()
-{
-    boost::filesystem::path pathConfigFile(GetArg("-vsxconf", "vsync.conf"));
-    if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir() / pathConfigFile;
-    return pathConfigFile;
-}
-
 void ReadConfigFile(map<string, string>& mapSettingsRet,
     map<string, vector<string> >& mapMultiSettingsRet)
 {
