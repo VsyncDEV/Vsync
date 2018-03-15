@@ -4527,8 +4527,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Sie müssen einen privaten Masternode-Schlüssel in der Konfiguration festlegen. Bitte nutzen Sie die Dokumentation zwecks Hilfe.</translation>
     </message>
     <message>
-        <source>(60020 could be used only on mainnet)</source>
-        <translation>(60020 kann nur im Mainnet verwendet werden)</translation>
+        <source>(65010 could be used only on mainnet)</source>
+        <translation>(65010 kann nur im Mainnet verwendet werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4539,8 +4539,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 60020 for mainnet)</source>
-        <translation>(muss im Mainnet 60020 sein)</translation>
+        <source>(must be 65010 for mainnet)</source>
+        <translation>(muss im Mainnet 65010 sein)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

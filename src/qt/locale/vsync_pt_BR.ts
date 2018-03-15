@@ -3490,8 +3490,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(60020 could be used only on mainnet)</source>
-        <translation>(60020 could be used only on mainnet)</translation>
+        <source>(65010 could be used only on mainnet)</source>
+        <translation>(65010 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3502,8 +3502,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 60020 for mainnet)</source>
-        <translation>(deve ser 60020 para mainnet)</translation>
+        <source>(must be 65010 for mainnet)</source>
+        <translation>(deve ser 65010 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
