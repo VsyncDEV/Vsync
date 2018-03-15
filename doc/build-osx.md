@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/Solaris-Project/Solaris.git
+        git clone https://github.com/VsyncCrypto/VSX.git
         cd Solaris
 
 2.  Build solarisd:

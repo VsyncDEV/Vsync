@@ -41,7 +41,7 @@ The following are developer notes on how to build Solaris on your native platfor
 
 Development
 ---------------------
-The Solaris repo's [root README](https://github.com/Solaris-Project/Solaris/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Solaris repo's [root README](https://github.com/VsyncCrypto/VSX/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

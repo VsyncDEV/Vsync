@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/solaris-project/solaris-detached-sigs.git"
+- "url": "https://github.com/vsynccrypto/vsx-detached-sigs.git"
   "dir": "signature"
 files:
 - "solaris-osx-unsigned.tar.gz"

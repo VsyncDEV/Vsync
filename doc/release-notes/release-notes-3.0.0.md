@@ -1,13 +1,13 @@
 Solaris Core version 3.0.0 is now available from:
 
-  <https://github.com/solaris-project/solaris/releases>
+  <https://github.com/vsynccrypto/vsx/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/solaris-project/solaris/issues>
+  <https://github.com/vsynccrypto/vsx/issues>
 
 Mandatory Update
 ==============
