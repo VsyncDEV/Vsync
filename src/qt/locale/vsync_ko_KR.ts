@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Vsync는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 XLRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
+        <translation>Vsync는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 VSXs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 XLR를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 VSX를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;프라이버시</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>zXLR와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Action for zVSX and Obfuscation</source>
+        <translation>zVSX와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 XLR 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 VSX 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 XLR 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 VSX 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 XLR 익명화에 약 ~0.025 XLR의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 VSX 익명화에 약 ~0.025 VSX의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 XLR 익명화에 약 0.05 XLR의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 VSX 익명화에 약 0.05 VSX의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>10000 XLR 익명화에 0.1 XLR 가 듭니다.</translation>
+        <source>0.1 VSX per 10000 VSX you anonymize.</source>
+        <translation>10000 VSX 익명화에 0.1 VSX 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1716,20 +1716,20 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>XLR수신시 자동변환 zXLR 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming VSX which get automatically converted to zVSX via Zerocoin Protocol (min: 10%)</source>
+        <translation>VSX수신시 자동변환 zVSX 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>자동 변환되는 zXLR 퍼센트</translation>
+        <source>Percentage of autominted zVSX</source>
+        <translation>자동 변환되는 zVSX 퍼센트</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>이 디노미네이션의 XLR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough VSX for this denomination is available</source>
+        <translation>이 디노미네이션의 VSX가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>선호하는 자동생성 zXLR 디노미네이션 </translation>
+        <source>Preferred Automint zVSX Denomination</source>
+        <translation>선호하는 자동생성 zVSX 디노미네이션 </translation>
     </message>
     <message>
         <source>Connect to the Vsync network through a SOCKS5 proxy.</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Form</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>XLR 잔액</translation>
+        <source>VSX Balances</source>
+        <translation>VSX 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>VSX:</source>
+        <translation>VSX:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zVSX:</source>
+        <translation>zVSX:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2064,12 +2064,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>제로코인 프로토콜을 통해 익명화된 XLR</translation>
+        <source>VSX which were anonymized via Zerocin Protocol</source>
+        <translation>제로코인 프로토콜을 통해 익명화된 VSX</translation>
     </message>
     <message>
-        <source>ZeroVsync (zXLR)</source>
-        <translation>제로코인 XLR (zXLR)</translation>
+        <source>ZeroVsync (zVSX)</source>
+        <translation>제로코인 VSX (zVSX)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Vsync 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>zXLR로 변환할 XLR 수량을 입력하세요.</translation>
+        <source>Enter an amount of VSX to convert to zVSX</source>
+        <translation>zVSX로 변환할 VSX 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zVSX</source>
+        <translation>zVSX</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 VSX</source>
+        <translation>0.000 000 00 VSX</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>마지막 발행 이후 상태나 메세지</translation>
     </message>
     <message>
-        <source>zXLR Control</source>
-        <translation>zXLR 설정</translation>
+        <source>zVSX Control</source>
+        <translation>zVSX 설정</translation>
     </message>
     <message>
-        <source>zXLR Selected:</source>
-        <translation>선택한 zXLR : </translation>
+        <source>zVSX Selected:</source>
+        <translation>선택한 zVSX : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zVSX</source>
+        <translation>0 zVSX</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2181,7 +2181,7 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     <message>
         <source>The Vsync address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>XLR를 전송할 Vsync 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <translation>VSX를 전송할 Vsync 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zXLR in </source>
-        <translation> zXLR in </translation>
+        <source> zVSX in </source>
+        <translation> zVSX in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2478,8 +2478,8 @@ Please be patient...</source>
         <translation>제로코인 송금 실패 상태 =</translation>
     </message>
     <message>
-        <source>zXLR Spend #: </source>
-        <translation>zXLR 송금 #: </translation>
+        <source>zVSX Spend #: </source>
+        <translation>zVSX 송금 #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Please be patient...</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>zXLR Mint</source>
-        <translation>zXLR 생성</translation>
+        <source>zVSX Mint</source>
+        <translation>zVSX 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3132,8 +3132,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 VSX</source>
+        <translation>0 VSX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3184,12 +3184,12 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXLRs로 설정되고,&lt;br /&gt;1000 uXLRs 안에는 최소 "킬로바이트당" 250 uXLRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uVSXs로 설정되고,&lt;br /&gt;1000 uVSXs 안에는 최소 "킬로바이트당" 250 uVSXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXLRs로 설정되고,&lt;br /&gt;1000 uXLRs 안에는 전체에서 최소 "킬로바이트당" 250 uXLRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "total at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uVSXs로 설정되고,&lt;br /&gt;1000 uVSXs 안에는 전체에서 최소 "킬로바이트당" 250 uVSXs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vsync transactions than the network can process.</source>
@@ -3240,8 +3240,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized XLR</source>
-        <translation>익명화 XLR</translation>
+        <source>Anonymized VSX</source>
+        <translation>익명화 VSX</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3961,32 +3961,32 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-        <source>Converted XLR to zXLR</source>
-        <translation>zXLR로 변환된 XLR</translation>
+        <source>Converted VSX to zVSX</source>
+        <translation>zVSX로 변환된 VSX</translation>
     </message>
     <message>
-        <source>Spent zXLR</source>
-        <translation>전송된 zXLR</translation>
+        <source>Spent zVSX</source>
+        <translation>전송된 zVSX</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>zXLR로 전송받은 XLR</translation>
+        <source>Received VSX from zVSX</source>
+        <translation>zVSX로 전송받은 VSX</translation>
     </message>
     <message>
-        <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>zXLR 전송후 남은 잔돈 zXLR 생성됨</translation>
+        <source>Minted Change as zVSX from zVSX Spend</source>
+        <translation>zVSX 전송후 남은 잔돈 zVSX 생성됨</translation>
     </message>
     <message>
-        <source>Converted zXLR to XLR</source>
-        <translation>zXLR에서 XLR로 변환됨</translation>
+        <source>Converted zVSX to VSX</source>
+        <translation>zVSX에서 VSX로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-        <source>zXLR Accumulator</source>
-        <translation>zXLR 누산기</translation>
+        <source>zVSX Accumulator</source>
+        <translation>zVSX 누산기</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4096,8 +4096,8 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>zXLR로 전송받은 XLR</translation>
+        <source>Received VSX from zVSX</source>
+        <translation>zVSX로 전송받은 VSX</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4108,8 +4108,8 @@ Please be patient...</source>
         <translation>제로코인 전송</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>제로코인 전송, 잔돈은 zXLR</translation>
+        <source>Zerocoin Spend, Change in zVSX</source>
+        <translation>제로코인 전송, 잔돈은 zVSX</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4233,8 +4233,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 XLR로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VSX.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 VSX로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4277,10 +4277,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZVSXControlDialog</name>
     <message>
-        <source>Select zXLR to Spend</source>
-        <translation>전송할 zXLR 선택</translation>
+        <source>Select zVSX to Spend</source>
+        <translation>전송할 zVSX 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4291,8 +4291,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zVSX</source>
+        <translation>zVSX</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4394,12 +4394,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (XLR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (VSX/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (XLR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (VSX/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4526,12 +4526,12 @@ rpcpassword=%s
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 XLR과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 VSX.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 VSX과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 XLR와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 VSX.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 VSX와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4834,8 +4834,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (XLR/kB) (기본값: %s)</translation>
+        <source>Fee (in VSX/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (VSX/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

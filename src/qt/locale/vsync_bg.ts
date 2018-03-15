@@ -176,7 +176,7 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
         <translation>Vsync сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Vsync от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ XLR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ VSX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>Поверителни действия за zXLR и Обфускация</translation>
+        <source>Privacy Action for zVSX and Obfuscation</source>
+        <translation>Поверителни действия за zVSX и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1548,32 +1548,32 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 VSX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 VSX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 XLR за да скриете 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 VSX за да скриете 10000 VSX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 XLR за да скриете 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 VSX за да скриете 10000 VSX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на XLR. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на VSX. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR за 10000 скрити XLR</translation>
+        <source>0.1 VSX per 10000 VSX you anonymize.</source>
+        <translation>0.1 VSX за 10000 скрити VSX</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1712,20 +1712,20 @@ https://www.transifex.com/vsync-project/vsync-project-translations</source>
 https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите XLR, който автоматично да се конвертира в zXLR посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming VSX which get automatically converted to zVSX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите VSX, който автоматично да се конвертира в zVSX посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>Процент автоматично сечени zXLR</translation>
+        <source>Percentage of autominted zVSX</source>
+        <translation>Процент автоматично сечени zVSX</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zXLR докато не се съберат достатъчно XLR за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough VSX for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zVSX докато не се съберат достатъчно VSX за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zXLR</translation>
+        <source>Preferred Automint zVSX Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zVSX</translation>
     </message>
     <message>
         <source>Connect to the Vsync network through a SOCKS5 proxy.</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>XLR Баланс</translation>
+        <source>VSX Balances</source>
+        <translation>VSX Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>VSX:</source>
+        <translation>VSX:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zVSX:</source>
+        <translation>zVSX:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2060,12 +2060,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR скрити посредством Зерокойн протокола</translation>
+        <source>VSX which were anonymized via Zerocin Protocol</source>
+        <translation>VSX скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>ZeroVsync (zXLR)</source>
-        <translation>ZeroVsync (zXLR)</translation>
+        <source>ZeroVsync (zVSX)</source>
+        <translation>ZeroVsync (zVSX)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2076,8 +2076,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Vsync мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Въведете колко XLR  да се конвертират в zXLR</translation>
+        <source>Enter an amount of VSX to convert to zVSX</source>
+        <translation>Въведете колко VSX  да се конвертират в zVSX</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zVSX</source>
+        <translation>zVSX</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 XLR</source>
-        <translation>0.000 000 00 XLR</translation>
+        <source>0.000 000 00 VSX</source>
+        <translation>0.000 000 00 VSX</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2132,12 +2132,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zXLR Control</source>
-        <translation>zXLR Контрол</translation>
+        <source>zVSX Control</source>
+        <translation>zVSX Контрол</translation>
     </message>
     <message>
-        <source>zXLR Selected:</source>
-        <translation>Избрани zXLR:</translation>
+        <source>zVSX Selected:</source>
+        <translation>Избрани zVSX:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zXLR</source>
-        <translation>0 zXLR</translation>
+        <source>0 zVSX</source>
+        <translation>0 zVSX</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zXLR от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zVSX от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zXLR in </source>
-        <translation>zXLR в</translation>
+        <source> zVSX in </source>
+        <translation>zVSX в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2474,8 +2474,8 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zXLR Spend #: </source>
-        <translation>zXLR Похарчени #:</translation>
+        <source>zVSX Spend #: </source>
+        <translation>zVSX Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2498,8 +2498,8 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zXLR Mint</source>
-        <translation>Сечене на zXLR</translation>
+        <source>zVSX Mint</source>
+        <translation>Сечене на zVSX</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 VSX</source>
+        <translation>0 VSX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,12 +3179,12 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uXLR и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uXLR входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uXLR. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uVSX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uVSX входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uVSX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uXLR и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uXLR входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uXLR. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "total at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uVSX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uVSX входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uVSX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vsync transactions than the network can process.</source>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized XLR</source>
-        <translation>Анонимизиран XLR</translation>
+        <source>Anonymized VSX</source>
+        <translation>Анонимизиран VSX</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3296,7 +3296,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Invalid Vsync address</source>
-        <translation>Предупреждение: Невалиден XLR адрес</translation>
+        <translation>Предупреждение: Невалиден VSX адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3955,32 +3955,32 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted XLR to zXLR</source>
-        <translation>Конвертиран XLR във zXLR</translation>
+        <source>Converted VSX to zVSX</source>
+        <translation>Конвертиран VSX във zVSX</translation>
     </message>
     <message>
-        <source>Spent zXLR</source>
-        <translation>Похарчени zXLR</translation>
+        <source>Spent zVSX</source>
+        <translation>Похарчени zVSX</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Получен XLR от zXLR</translation>
+        <source>Received VSX from zVSX</source>
+        <translation>Получен VSX от zVSX</translation>
     </message>
     <message>
-        <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>Исечено ресто като zXLR от похарчените zXLR</translation>
+        <source>Minted Change as zVSX from zVSX Spend</source>
+        <translation>Исечено ресто като zVSX от похарчените zVSX</translation>
     </message>
     <message>
-        <source>Converted zXLR to XLR</source>
-        <translation>Конвертирани zXLR в XLR</translation>
+        <source>Converted zVSX to VSX</source>
+        <translation>Конвертирани zVSX в VSX</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zXLR Accumulator</source>
-        <translation>zXLR Акумулатор</translation>
+        <source>zVSX Accumulator</source>
+        <translation>zVSX Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4086,8 +4086,8 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received XLR from zXLR</source>
-        <translation>Получен XLR от zXLR</translation>
+        <source>Received VSX from zVSX</source>
+        <translation>Получен VSX от zVSX</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4098,8 +4098,8 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>Харчене на Zerocoin, Ресто в zXLR</translation>
+        <source>Zerocoin Spend, Change in zVSX</source>
+        <translation>Харчене на Zerocoin, Ресто в zVSX</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 XLR.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VSX.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 VSX.</translation>
     </message>
 </context>
 <context>
@@ -4259,10 +4259,10 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZVSXControlDialog</name>
     <message>
-        <source>Select zXLR to Spend</source>
-        <translation>Изберете zXLR за Изпращане</translation>
+        <source>Select zVSX to Spend</source>
+        <translation>Изберете zVSX за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4273,8 +4273,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zXLR</source>
-        <translation>zXLR</translation>
+        <source>zVSX</source>
+        <translation>zVSX</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в XLR/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в VSX/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в XLR/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в VSX/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

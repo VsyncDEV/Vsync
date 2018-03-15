@@ -2,20 +2,20 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zxlrcontroldialog.h"
-#include "ui_zxlrcontroldialog.h"
+#include "zvsxcontroldialog.h"
+#include "ui_zvsxcontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"
 
 using namespace std;
 
-std::list<std::string> ZXLRControlDialog::listSelectedMints;
-std::list<CZerocoinMint> ZXLRControlDialog::listMints;
+std::list<std::string> ZVSXControlDialog::listSelectedMints;
+std::list<CZerocoinMint> ZVSXControlDialog::listMints;
 
-ZXLRControlDialog::ZXLRControlDialog(QWidget *parent) :
+ZVSXControlDialog::ZVSXControlDialog(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ZXLRControlDialog),
+    ui(new Ui::ZVSXControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -29,19 +29,19 @@ ZXLRControlDialog::ZXLRControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZXLRControlDialog::~ZXLRControlDialog()
+ZVSXControlDialog::~ZVSXControlDialog()
 {
     delete ui;
 }
 
-void ZXLRControlDialog::setModel(WalletModel *model)
+void ZVSXControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZXLRControlDialog::updateList()
+void ZVSXControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -130,7 +130,7 @@ void ZXLRControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZXLRControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZVSXControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -153,7 +153,7 @@ void ZXLRControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZXLRControlDialog::updateLabels()
+void ZVSXControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CZerocoinMint mint : listMints) {
@@ -163,14 +163,14 @@ void ZXLRControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZXLR_int->setText(QString::number(nAmount));
+    ui->labelZVSX_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(listSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZXLRControlLabels(nAmount, listSelectedMints.size());
+    privacyDialog->setZVSXControlLabels(nAmount, listSelectedMints.size());
 }
 
-std::vector<CZerocoinMint> ZXLRControlDialog::GetSelectedMints()
+std::vector<CZerocoinMint> ZVSXControlDialog::GetSelectedMints()
 {
     std::vector<CZerocoinMint> listReturn;
     for (const CZerocoinMint mint : listMints) {
@@ -183,7 +183,7 @@ std::vector<CZerocoinMint> ZXLRControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZXLRControlDialog::ButtonAllClicked()
+void ZVSXControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

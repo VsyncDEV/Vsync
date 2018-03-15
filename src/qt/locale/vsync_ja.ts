@@ -263,7 +263,7 @@
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZVSXControlDialog</name>
     </context>
 <context>
     <name>vsync-core</name>

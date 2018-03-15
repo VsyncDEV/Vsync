@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=vsync-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef XLR_CONFIG_H])
-AH_TOP([#define XLR_CONFIG_H])
-AH_BOTTOM([#endif //XLR_CONFIG_H])
+AH_TOP([#ifndef VSX_CONFIG_H])
+AH_TOP([#define VSX_CONFIG_H])
+AH_BOTTOM([#endif //VSX_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

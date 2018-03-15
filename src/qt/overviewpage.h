@@ -59,7 +59,7 @@ private:
     CAmount currentWatchUnconfBalance;
     CAmount currentWatchImmatureBalance;
     int nDisplayUnit;
-    void getPercentage(CAmount nTotalBalance, CAmount nZerocoinBalance, QString& sXLRPercentage, QString& szXLRPercentage);
+    void getPercentage(CAmount nTotalBalance, CAmount nZerocoinBalance, QString& sVSXPercentage, QString& szVSXPercentage);
 
     TxViewDelegate* txdelegate;
     TransactionFilterProxy* filter;

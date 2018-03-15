@@ -81,28 +81,28 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 XLR at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 VSX at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zXLR send
+// Possible states for zVSX send
 enum ZerocoinSpendStatus {
-    ZXLR_SPEND_OKAY = 0,                            // No error
-    ZXLR_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZXLR_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZXLR_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZXLR_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZXLR_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZXLR_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZXLR_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZXLR_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZXLR_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZXLR_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZXLR_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZXLR_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZXLR_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZXLR_SPENT_USED_ZXLR = 14                       // Coin has already been spend
+    ZVSX_SPEND_OKAY = 0,                            // No error
+    ZVSX_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZVSX_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZVSX_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZVSX_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZVSX_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZVSX_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZVSX_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZVSX_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZVSX_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZVSX_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZVSX_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZVSX_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZVSX_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZVSX_SPENT_USED_ZVSX = 14                       // Coin has already been spend
 };
 
 struct CompactTallyItem {
@@ -207,7 +207,7 @@ public:
     std::string ResetMintZerocoin(bool fExtendedSearch);
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored);
-    void ZXLRBackupWallet();
+    void ZVSXBackupWallet();
 
     /** Zerocin entry changed.
     * @note called with lock cs_wallet held.
@@ -310,7 +310,7 @@ public:
         return fEnableZeromint;
     }
 
-    void setZXLRAutoBackups(bool fEnabled)
+    void setZVSXAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }

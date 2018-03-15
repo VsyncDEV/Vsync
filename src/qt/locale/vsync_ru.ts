@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
         <translation>Vsync сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Vsync от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XLR&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ VSX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -610,7 +610,7 @@
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zXLR and Obfuscation</source>
+        <source>Privacy Action for zVSX and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -1516,32 +1516,32 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 XLR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 VSX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 XLR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VSX</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 VSX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 XLR для анонимизации 10000 XLR</translation>
+        <source>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 VSX для анонимизации 10000 VSX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 XLR для анонимизации 10000 XLR</translation>
+        <source>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 VSX для анонимизации 10000 VSX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>0.1 XLR за 10000 XLR которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 VSX per 10000 VSX you anonymize.</source>
+        <translation>0.1 VSX за 10000 VSX которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1684,16 +1684,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих XLR, которые автоматически конвертируются в zXLR благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming VSX which get automatically converted to zVSX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих VSX, которые автоматически конвертируются в zVSX благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zXLR</source>
-        <translation>Процент  авточеканненых zXLR</translation>
+        <source>Percentage of autominted zVSX</source>
+        <translation>Процент  авточеканненых zVSX</translation>
     </message>
     <message>
-        <source>Preferred Automint zXLR Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zXLR</translation>
+        <source>Preferred Automint zVSX Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zVSX</translation>
     </message>
     <message>
         <source>Connect to the Vsync network through a SOCKS5 proxy.</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Вид</translation>
     </message>
     <message>
-        <source>XLR Balances</source>
-        <translation>Баланс XLR</translation>
+        <source>VSX Balances</source>
+        <translation>Баланс VSX</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,12 +1891,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>XLR:</source>
-        <translation>XLR:</translation>
+        <source>VSX:</source>
+        <translation>VSX:</translation>
     </message>
     <message>
-        <source>zXLR:</source>
-        <translation>zXLR:</translation>
+        <source>zVSX:</source>
+        <translation>zVSX:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR, который был анонимно использован через Zerocoin протокол</translation>
+        <source>VSX which were anonymized via Zerocin Protocol</source>
+        <translation>VSX, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2032,8 +2032,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Vsync после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
-        <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Введите сумму в XLR для  конвертации в zXLR</translation>
+        <source>Enter an amount of VSX to convert to zVSX</source>
+        <translation>Введите сумму в VSX для  конвертации в zVSX</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 XLR</source>
-        <translation>0 XLR</translation>
+        <source>0 VSX</source>
+        <translation>0 VSX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3198,7 +3198,7 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
     </context>
 <context>
-    <name>ZXLRControlDialog</name>
+    <name>ZVSXControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

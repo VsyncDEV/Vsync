@@ -56,7 +56,7 @@ QT_TRANSLATE_NOOP("vsync-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
 QT_TRANSLATE_NOOP("vsync-core", ""
-"Enable automatic wallet backups triggered after each zXLR minting (0-1, "
+"Enable automatic wallet backups triggered after each zVSX minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("vsync-core", ""
 "Enable spork administration functionality with the appropriate private key."),
@@ -90,10 +90,10 @@ QT_TRANSLATE_NOOP("vsync-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("vsync-core", ""
-"Fees (in XLR/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in VSX/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("vsync-core", ""
-"Fees (in XLR/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in VSX/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("vsync-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -188,10 +188,10 @@ QT_TRANSLATE_NOOP("vsync-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("vsync-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 XLR."),
+"transaction that are not equal 10000 VSX."),
 QT_TRANSLATE_NOOP("vsync-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"XLR."),
+"VSX."),
 QT_TRANSLATE_NOOP("vsync-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -304,7 +304,7 @@ QT_TRANSLATE_NOOP("vsync-core", "Failed to listen on any port. Use -listen=0 if 
 QT_TRANSLATE_NOOP("vsync-core", "Failed to read block index"),
 QT_TRANSLATE_NOOP("vsync-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("vsync-core", "Failed to write block index"),
-QT_TRANSLATE_NOOP("vsync-core", "Fee (in XLR/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("vsync-core", "Fee (in VSX/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("vsync-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("vsync-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("vsync-core", "Found enough users, signing ( waiting %s )"),
