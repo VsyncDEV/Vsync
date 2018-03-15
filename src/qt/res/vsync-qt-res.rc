@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Vsync"
-            VALUE "FileDescription",    "Vsync Core (OSS GUI client for Vsync)"
+            VALUE "CompanyName",        "Solaris"
+            VALUE "FileDescription",    "Solaris Core (OSS GUI client for Solaris)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "vsync-qt"
+            VALUE "InternalName",       "solaris-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "vsync-qt.exe"
-            VALUE "ProductName",        "Vsync Core"
+            VALUE "OriginalFilename",   "solaris-qt.exe"
+            VALUE "ProductName",        "Solaris Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

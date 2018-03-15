@@ -62,12 +62,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your Vsync addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Vsync addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your Vsync addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Vsync addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</translation>
+        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
-        <source>Enter a Vsync Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Enter a Vsync Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
+        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>The Vsync address to sign the message with</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>The Solaris address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Sign the message to prove you own this Vsync address</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Sign the message to prove you own this Solaris address</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>The Vsync address the message was signed with</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>The Solaris address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Verify the message to ensure it was signed with the specified Vsync address</translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Verify the message to ensure it was signed with the specified Solaris address</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
-        <source>Send coins to a Vsync address</source>
-        <translation>Send coins to a Vsync address</translation>
+        <source>Send coins to a Solaris address</source>
+        <translation>Send coins to a Solaris address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vsync: URIs)</source>
-        <translation>Request payments (generates QR codes and vsync: URIs)</translation>
+        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <translation>Request payments (generates QR codes and solaris: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +622,24 @@
         <translation>Browse masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Vsync Core</source>
-        <translation>&amp;About Vsync Core</translation>
+        <source>&amp;About Solaris Core</source>
+        <translation>&amp;About Solaris Core</translation>
     </message>
     <message>
-        <source>Show information about Vsync Core</source>
-        <translation>Show information about Vsync Core</translation>
+        <source>Show information about Solaris Core</source>
+        <translation>Show information about Solaris Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vsync</source>
-        <translation>Modify configuration options for Vsync</translation>
+        <source>Modify configuration options for Solaris</source>
+        <translation>Modify configuration options for Solaris</translation>
     </message>
     <message>
-        <source>Sign messages with your Vsync addresses to prove you own them</source>
-        <translation>Sign messages with your Vsync addresses to prove you own them</translation>
+        <source>Sign messages with your Solaris addresses to prove you own them</source>
+        <translation>Sign messages with your Solaris addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vsync addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Vsync addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Solaris addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Open Masternode configuration file</translation>
     </message>
     <message>
-        <source>Open a Vsync: URI or payment request</source>
-        <translation>Open a Vsync: URI or payment request</translation>
+        <source>Open a Solaris: URI or payment request</source>
+        <translation>Open a Solaris: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,16 +682,16 @@
         <translation>Block explorer window</translation>
     </message>
     <message>
-        <source>Show the Vsync Core help message to get a list with possible Vsync command-line options</source>
-        <translation>Show the Vsync Core help message to get a list with possible Vsync command-line options</translation>
+        <source>Show the Solaris Core help message to get a list with possible Solaris command-line options</source>
+        <translation>Show the Solaris Core help message to get a list with possible Solaris command-line options</translation>
     </message>
     <message>
-        <source>Vsync Core client</source>
-        <translation>Vsync Core client</translation>
+        <source>Solaris Core client</source>
+        <translation>Solaris Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vsync network</source>
-        <translation><numerusform>%n active connection(s) to Vsync network</numerusform><numerusform>%n active connection(s) to Vsync network</numerusform></translation>
+        <source>%n active connection(s) to Solaris network</source>
+        <translation><numerusform>%n active connection(s) to Solaris network</numerusform><numerusform>%n active connection(s) to Solaris network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ Address: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
-        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Vsync address.</source>
-        <translation>The entered address "%1" is not a valid Vsync address.</translation>
+        <source>The entered address "%1" is not a valid Solaris address.</source>
+        <translation>The entered address "%1" is not a valid Solaris address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Vsync Core</source>
-        <translation>About Vsync Core</translation>
+        <source>About Solaris Core</source>
+        <translation>About Solaris Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1208,12 +1208,16 @@ Address: %4
         <translation>command-line options</translation>
     </message>
     <message>
-        <source>UI options</source>
-        <translation>UI options</translation>
+        <source>UI Options:</source>
+        <translation>UI Options:</translation>
     </message>
     <message>
-        <source>Choose data directory on startup (default: 0)</source>
-        <translation>Choose data directory on startup (default: 0)</translation>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Choose data directory on startup (default: %u)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Show splash screen on startup (default: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1227,10 +1231,6 @@ Address: %4
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Set SSL root certificates for payment request (default: -system-)</translation>
     </message>
-    <message>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Show splash screen on startup (default: 1)</translation>
-    </message>
 </context>
 <context>
     <name>Intro</name>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to Vsync Core.</source>
-        <translation>Welcome to Vsync Core.</translation>
+        <source>Welcome to Solaris Core.</source>
+        <translation>Welcome to Solaris Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Vsync Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Vsync Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Solaris Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Solaris Core will store its data.</translation>
     </message>
     <message>
-        <source>Vsync Core will download and store a copy of the Vsync block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Vsync Core will download and store a copy of the Vsync block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Solaris Core will download and store a copy of the Solaris block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Solaris Core will download and store a copy of the Solaris block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1346,22 +1346,6 @@ Address: %4
         <translation>0</translation>
     </message>
     <message>
-        <source>All Masternodes</source>
-        <translation>All Masternodes</translation>
-    </message>
-    <message>
-        <source>Filter List:</source>
-        <translation>Filter List:</translation>
-    </message>
-    <message>
-        <source>Filter masternode list</source>
-        <translation>Filter masternode list</translation>
-    </message>
-    <message>
-        <source>Node Count:</source>
-        <translation>Node Count:</translation>
-    </message>
-    <message>
         <source>Start alias</source>
         <translation>Start alias</translation>
     </message>
@@ -1417,12 +1401,12 @@ Address: %4
         <translation>Enter Address to Send to</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vsync addresses after it matures.
-To Add: enter percentage to give and Vsync address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Solaris addresses after it matures.
+To Add: enter percentage to give and Solaris address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Vsync addresses after it matures.
-To Add: enter percentage to give and Vsync address to add to the MultiSend vector.
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Solaris addresses after it matures.
+To Add: enter percentage to give and Solaris address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
@@ -1560,48 +1544,48 @@ Please check the address and try again.</translation>
         <translation>Please select a privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 VSX</source>
-        <translation>Use 2 separate masternodes to mix funds up to 10000 VSX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 VSX</source>
-        <translation>Use 8 separate masternodes to mix funds up to 10000 VSX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</source>
-        <translation>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
+        <translation>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</source>
-        <translation>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
+        <translation>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
-        <source>0.1 VSX per 10000 VSX you anonymize.</source>
-        <translation>0.1 VSX per 10000 VSX you anonymize.</translation>
+        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <translation>0.1 XLR per 10000 XLR you anonymize.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Configuration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
-        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Vsync's configuration screen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Solaris's configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
-        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Vsync's configuration screen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Solaris's configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vsync's configuration screen.</source>
-        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Vsync's configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Solaris's configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Solaris's configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1662,8 +1646,8 @@ Please check the address and try again.</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the Vsync client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Vsync client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Solaris client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Solaris client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1682,12 +1666,12 @@ Please check the address and try again.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Vsync after logging in to the system.</source>
-        <translation>Automatically start Vsync after logging in to the system.</translation>
+        <source>Automatically start Solaris after logging in to the system.</source>
+        <translation>Automatically start Solaris after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start Vsync on system login</source>
-        <translation>&amp;Start Vsync on system login</translation>
+        <source>&amp;Start Solaris on system login</source>
+        <translation>&amp;Start Solaris on system login</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1702,8 +1686,8 @@ Please check the address and try again.</translation>
         <translation>This amount acts as a threshold to turn off Obfuscation once it's reached.</translation>
     </message>
     <message>
-        <source>Amount of Vsync to keep anonymized</source>
-        <translation>Amount of Vsync to keep anonymized</translation>
+        <source>Amount of Solaris to keep anonymized</source>
+        <translation>Amount of Solaris to keep anonymized</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1730,22 +1714,22 @@ Please check the address and try again.</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Vsync.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Vsync.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Solaris.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Solaris.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/vsync-project/vsync-project-translations</source>
+https://www.transifex.com/solaris-project/solaris-project-translations</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/vsync-project/vsync-project-translations</translation>
+https://www.transifex.com/solaris-project/solaris-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Vsync network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Vsync network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Solaris network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Solaris network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1899,8 +1883,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Balances</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vsync network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Vsync network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Solaris network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Solaris network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1943,8 +1927,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Obfuscation Balance:</translation>
     </message>
     <message>
-        <source>0 VSX / 0 Rounds</source>
-        <translation>0 VSX / 0 Rounds</translation>
+        <source>0 XLR / 0 Rounds</source>
+        <translation>0 XLR / 0 Rounds</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2108,12 +2092,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start vsync: click-to-pay handler</source>
-        <translation>Cannot start vsync: click-to-pay handler</translation>
+        <source>Cannot start solaris: click-to-pay handler</source>
+        <translation>Cannot start solaris: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Vsync address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Vsync address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Solaris address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Solaris address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2198,8 +2182,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a Vsync address (e.g. %1)</source>
-        <translation>Enter a Vsync address (e.g. %1)</translation>
+        <source>Enter a Solaris address (e.g. %1)</source>
+        <translation>Enter a Solaris address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2332,8 +2316,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Vsync debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Vsync debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Solaris debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Solaris debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2432,64 +2416,64 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>&amp;Wallet Repair</translation>
     </message>
     <message>
+        <source>Wallet In Use:</source>
+        <translation>Wallet In Use:</translation>
+    </message>
+    <message>
         <source>Salvage wallet</source>
         <translation>Salvage wallet</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat.</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
         <translation>Rescan blockchain files</translation>
     </message>
     <message>
+        <source>Rescan the block chain for missing wallet transactions.</source>
+        <translation>Rescan the block chain for missing wallet transactions.</translation>
+    </message>
+    <message>
         <source>Recover transactions 1</source>
         <translation>Recover transactions 1</translation>
+    </message>
+    <message>
+        <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
+        <translation>Recover transactions from blockchain (keep meta-data, e.g. account owner).</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
         <translation>Recover transactions 2</translation>
     </message>
     <message>
+        <source>Recover transactions from blockchain (drop meta-data).</source>
+        <translation>Recover transactions from blockchain (drop meta-data).</translation>
+    </message>
+    <message>
         <source>Upgrade wallet format</source>
         <translation>Upgrade wallet format</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files.</source>
+        <translation>Rebuild block chain index from current blk000??.dat files.</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</translation>
     </message>
     <message>
-        <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</translation>
-    </message>
-    <message>
-        <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Rescan the block chain for missing wallet transactions.</translation>
-    </message>
-    <message>
-        <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</translation>
-    </message>
-    <message>
-        <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</translation>
-    </message>
-    <message>
-        <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</translation>
-    </message>
-    <message>
         <source>Wallet repair options.</source>
         <translation>Wallet repair options.</translation>
     </message>
     <message>
+        <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
+        <translation>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</translation>
+    </message>
+    <message>
         <source>Rebuild index</source>
         <translation>Rebuild index</translation>
-    </message>
-    <message>
-        <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex: Rebuild block chain index from current blk000??.dat files.</translation>
-    </message>
-    <message>
-        <source>Wallet Path</source>
-        <translation>Wallet Path</translation>
     </message>
     <message>
         <source>In:</source>
@@ -2500,12 +2484,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the Vsync RPC console.</source>
-        <translation>Welcome to the Vsync RPC console.</translation>
-    </message>
-    <message>
-        <source>Wallet in use: </source>
-        <translation>Wallet in use: </translation>
+        <source>Welcome to the Solaris RPC console.</source>
+        <translation>Welcome to the Solaris RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2575,12 +2555,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>An optional label to associate with the new receiving address.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vsync network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Vsync network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Solaris network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Solaris network.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Vsync network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Vsync network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Solaris network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Solaris network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2812,8 +2792,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 VSX</source>
-        <translation>0 VSX</translation>
+        <source>0 XLR</source>
+        <translation>0 XLR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2860,16 +2840,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Confirmation time:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "total at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uVSXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVSXs in fee,&lt;br /&gt;while "total at least" pays 1000 uVSXs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vsync transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Vsync transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Solaris transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Solaris transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2972,8 +2952,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>anonymous funds</translation>
     </message>
     <message>
-        <source>Warning: Invalid Vsync address</source>
-        <translation>Warning: Invalid Vsync address</translation>
+        <source>Warning: Invalid Solaris address</source>
+        <translation>Warning: Invalid Solaris address</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3079,8 +3059,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Pay &amp;To:</translation>
     </message>
     <message>
-        <source>The Vsync address to send the payment to</source>
-        <translation>The Vsync address to send the payment to</translation>
+        <source>The Solaris address to send the payment to</source>
+        <translation>The Solaris address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3119,8 +3099,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Message:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Vsync: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vsync network.</source>
-        <translation>A message that was attached to the Vsync: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Vsync network.</translation>
+        <source>A message that was attached to the Solaris: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Solaris network.</source>
+        <translation>A message that was attached to the Solaris: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Solaris network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3146,8 +3126,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Vsync Core is shutting down...</source>
-        <translation>Vsync Core is shutting down...</translation>
+        <source>Solaris Core is shutting down...</source>
+        <translation>Solaris Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3169,8 +3149,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>The Vsync address to sign the message with</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>The Solaris address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3201,16 +3181,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Sign the message to prove you own this Vsync address</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Sign the message to prove you own this Solaris address</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>The Vsync address the message was signed with</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>The Solaris address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Verify the message to ensure it was signed with the specified Vsync address</translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Verify the message to ensure it was signed with the specified Solaris address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3296,8 +3276,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3312,8 +3292,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The Vsync Core developers</source>
-        <translation>The Vsync Core developers</translation>
+        <source>The Solaris Core developers</source>
+        <translation>The Solaris Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3860,8 +3840,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VSX.</source>
-        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VSX.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
+        <translation>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</translation>
     </message>
 </context>
 <context>
@@ -3904,7 +3884,7 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>vsync-core</name>
+    <name>solaris-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
@@ -3930,8 +3910,8 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Vsync Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Vsync Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Solaris Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Solaris Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3950,12 +3930,16 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
     </message>
     <message>
-        <source>Disable all Vsync specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all Vsync specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Solaris specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Solaris specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enable spork administration functionality with the appropriate private key.</source>
+        <translation>Enable spork administration functionality with the appropriate private key.</translation>
     </message>
     <message>
         <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
@@ -3990,12 +3974,12 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in VSX/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in VSX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in VSX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4020,6 +4004,10 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
+    </message>
+    <message>
+        <source>Keep the specified amount available for spending at all times (default: 0)</source>
+        <translation>Keep the specified amount available for spending at all times (default: 0)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
@@ -4082,56 +4070,56 @@ https://www.transifex.com/vsync-project/vsync-project-translations</translation>
         <translation>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</translation>
     </message>
     <message>
-        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation>Support filtering of blocks and transaction with bloom filters (default: %u)</translation>
     </message>
     <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
+        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use vsyncd, or the -server option to vsync-qt, you must set an rpcpassword in the configuration file:
+        <source>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=vsyncrpc
+rpcuser=solarisrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Solaris Alert" admin@foo.com
 </source>
-        <translation>To use vsyncd, or the -server option to vsync-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use solarisd, or the -server option to solaris-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=vsyncrpc
+rpcuser=solarisrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Solaris Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Vsync Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Vsync Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Solaris Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Solaris Core is probably already running.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 VSX.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 VSX.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 VSX.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 VSX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4146,8 +4134,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vsync Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Vsync Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Solaris Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Solaris Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4178,8 +4166,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(65010 could be used only on mainnet)</source>
-        <translation>(65010 could be used only on mainnet)</translation>
+        <source>(60020 could be used only on mainnet)</source>
+        <translation>(60020 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4190,14 +4178,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 65010 for mainnet)</source>
-        <translation>(must be 65010 for mainnet)</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:
-</source>
-        <translation>&lt;category&gt; can be:
-</translation>
+        <source>(must be 60020 for mainnet)</source>
+        <translation>(must be 60020 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4300,8 +4282,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Vsync Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Vsync Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Solaris Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Solaris Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4372,8 +4354,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Vsync Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Vsync Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Solaris Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Solaris Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4424,8 +4406,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in VSX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in VSX/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in XLR/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4484,8 +4466,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Vsync Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Vsync Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Solaris Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Solaris Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4548,8 +4530,56 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Invalid script detected.</translation>
     </message>
     <message>
-        <source>Keep N VSX anonymized (default: %u)</source>
-        <translation>Keep N VSX anonymized (default: %u)</translation>
+        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
+        <translation>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; can be:</translation>
+    </message>
+    <message>
+        <source>Attempt to force blockchain corruption recovery</source>
+        <translation>Attempt to force blockchain corruption recovery</translation>
+    </message>
+    <message>
+        <source>Display the stake modifier calculations in the debug.log file.</source>
+        <translation>Display the stake modifier calculations in the debug.log file.</translation>
+    </message>
+    <message>
+        <source>Display verbose coin stake messages in the debug.log file.</source>
+        <translation>Display verbose coin stake messages in the debug.log file.</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Enable publish hash block in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Enable publish hash transaction in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Enable publish raw block in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Enable publish raw transaction in &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable staking functionality (0-1, default: %u)</source>
+        <translation>Enable staking functionality (0-1, default: %u)</translation>
+    </message>
+    <message>
+        <source>Keep N XLR anonymized (default: %u)</source>
+        <translation>Keep N XLR anonymized (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4728,6 +4758,10 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Prepend debug output with timestamp (default: %u)</translation>
     </message>
     <message>
+        <source>Print version and exit</source>
+        <translation>Print version and exit</translation>
+    </message>
+    <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
@@ -4882,6 +4916,10 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
         <translation>Spend unconfirmed change when sending transactions (default: %u)</translation>
+    </message>
+    <message>
+        <source>Staking options:</source>
+        <translation>Staking options:</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
@@ -5048,8 +5086,8 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
         <translation>Wallet is locked.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Vsync Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Vsync Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Solaris Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Solaris Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5094,6 +5132,10 @@ for example: alertnotify=echo %%s | mail -s "Vsync Alert" admin@foo.com
     <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Zapping all transactions from wallet...</translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>ZeroMQ notification options:</translation>
     </message>
     <message>
         <source>on startup</source>

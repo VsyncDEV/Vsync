@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: vsyncd.service
-Upstart: vsyncd.conf
-OpenRC:  vsyncd.openrc
-         vsyncd.openrcconf
-CentOS:  vsyncd.init
+SystemD: solarisd.service
+Upstart: solarisd.conf
+OpenRC:  solarisd.openrc
+         solarisd.openrcconf
+CentOS:  solarisd.init
 
 have been made available to assist packagers in creating node packages here.
 

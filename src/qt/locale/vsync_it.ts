@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Clic col pulsante destro per modificare l'indirizzo o l'etichetta</translation>
+        <translation>Fare click col pulsante destro per modificare l'indirizzo o l'etichetta</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Vsync addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Vsync per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi Solaris per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Vsync addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Vsync per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi Solaris per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vsync verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi VSX dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Solaris verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XLR dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI VSX&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XLR&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Vsync Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Vsync che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo Solaris che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>L'indirizzo Vsync per firmare il messaggio con</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>L'indirizzo Solaris per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Vsync</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Solaris</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,16 +295,20 @@
         <translation>Cancella &amp;All</translation>
     </message>
     <message>
+        <source>&amp;BIP 38 Decrypt</source>
+        <translation>&amp;BIP 38 Decripta</translation>
+    </message>
+    <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>L'indirizzo Vsync con cui è stato firmato il messaggio</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>L'indirizzo Solaris con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Vsync specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Solaris specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -411,7 +415,7 @@
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Ri&amp;cevi</translation>
+        <translation>&amp;Ricevi</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -546,32 +550,56 @@
         <translation>Mostra i backup dei portafogli creati automaticamente</translation>
     </message>
     <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Indirizzi Sorgente</translation>
+    </message>
+    <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Mostra l'elenco degli indirizzi e delle etichette di invio utilizzati</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Indirizzi di Destinazione</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Mostra l'elenco degli indirizzi e delle etichette di ricezione utilizzati</translation>
     </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Processato %n blocchi nella cronologia delle transazioni.</numerusform><numerusform>Processato %n blocchi nella cronologia delle transazioni.</numerusform></translation>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Apri URL</translation>
+    </message>
+    <message>
+        <source>Synchronizing additional data: %p%</source>
+        <translation>Sincronizzazione dati addizionali: %p%</translation>
+    </message>
+    <message>
+        <source>&amp;Settings</source>
+        <translation>&amp;Impostazioni</translation>
+    </message>
+    <message>
+        <source>&amp;Tools</source>
+        <translation>&amp;Strumenti</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>&amp;Aiuto</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
-        <source>Send coins to a Vsync address</source>
-        <translation>Invia monete all' indirizzo Vsync</translation>
+        <source>Send coins to a Solaris address</source>
+        <translation>Invia monete all' indirizzo Solaris</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vsync: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e vsync: URIs)</translation>
+        <source>Request payments (generates QR codes and solaris: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e solaris: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -582,20 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>Show information about Vsync Core</source>
-        <translation>Visualizza informazioni su Vsync Core</translation>
+        <source>&amp;About Solaris Core</source>
+        <translation>&amp;Informazioni Solaris Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vsync</source>
-        <translation>Modifica le opzioni di configurazione per Vsync</translation>
+        <source>Show information about Solaris Core</source>
+        <translation>Visualizza informazioni su Solaris Core</translation>
     </message>
     <message>
-        <source>Sign messages with your Vsync addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Vsync per dimostrare di essere il proprietario </translation>
+        <source>Modify configuration options for Solaris</source>
+        <translation>Modifica le opzioni di configurazione per Solaris</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vsync addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Vsync specifici</translation>
+        <source>Sign messages with your Solaris addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi Solaris per dimostrare di essere il proprietario </translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Solaris specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -606,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Vsync: URI or payment request</source>
-        <translation>Apri un Vsync: URI o richiesta di pagamento</translation>
+        <source>Open a Solaris: URI or payment request</source>
+        <translation>Apri un Solaris: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Vsync Core help message to get a list with possible Vsync command-line options</source>
-        <translation>Mostra il messaggio di aiuto Vsync Core per ottenere un elenco con le possibili opzioni di riga di comando Vsync</translation>
+        <source>Show the Solaris Core help message to get a list with possible Solaris command-line options</source>
+        <translation>Mostra il messaggio di aiuto Solaris Core per ottenere un elenco con le possibili opzioni di riga di comando Solaris</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -654,6 +686,10 @@
         <translation>Avvertimento</translation>
     </message>
     <message>
+        <source>Information</source>
+        <translation>Informazioni</translation>
+    </message>
+    <message>
         <source>Sent transaction</source>
         <translation>Transazioni Inviate</translation>
     </message>
@@ -664,6 +700,18 @@
     <message>
         <source>Sent MultiSend transaction</source>
         <translation>Transazioni MultiSend inviate</translation>
+    </message>
+    <message>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Data: %1
+Ammontare: %2
+Tipo: %3
+Indirizzo: %4
+</translation>
     </message>
     <message>
         <source>Staking is active
@@ -693,15 +741,115 @@ MultiSend: %1</translation>
 <context>
     <name>BlockExplorer</name>
     <message>
+        <source>Blockchain Explorer</source>
+        <translation>Esplora catena dei blocchi</translation>
+    </message>
+    <message>
+        <source>Address / Block / Transaction</source>
+        <translation>Indirizzo / Blocco / Transazione</translation>
+    </message>
+    <message>
         <source>Search</source>
         <translation>Cerca</translation>
     </message>
-    </context>
+    <message>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (solaris.conf)</translation>
+    </message>
+</context>
 <context>
     <name>ClientModel</name>
     </context>
 <context>
     <name>CoinControlDialog</name>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantità:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Totale:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorità:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Tassa:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Differenza:</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Modalità albero</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Modalità lista</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Ammontare</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Ricevute con etichetta</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Ricevute con indirizzo</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Conferme</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confermata</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Priorità</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copia indirizzo</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etichetta</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia ammontare</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Copia ID transazione</translation>
+    </message>
+    <message>
+        <source>Please switch to "List mode" to use this function.</source>
+        <translation>Prego selezionare "Modalità lista" per utilizzare questa funzione</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>si</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Questa etichetta diventerà rossa se la transazione supera i 1000 bytes</translation>
+    </message>
     <message>
         <source>(no label)</source>
         <translation>(nessuna etichetta)</translation>
@@ -709,22 +857,66 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Modifica indirizzo</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etichetta</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Indirizzo</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Impossibile sbloccare il portafoglio</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
+    <message>
+        <source>name</source>
+        <translation>nome</translation>
+    </message>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>version</source>
+        <translation>versione</translation>
+    </message>
+    <message>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Opzioni linea di comando</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Utilizzo:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opzioni linea di comando</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Welcome</source>
+        <translation>Benvenuto</translation>
+    </message>
+    <message>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -733,6 +925,10 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>MasternodeList</name>
+    <message>
+        <source>My Masternodes</source>
+        <translation>I miei Masternodes</translation>
+    </message>
     <message>
         <source>Address</source>
         <translation>Indirizzo</translation>
@@ -772,7 +968,58 @@ MultiSend: %1</translation>
     <name>PeerTableModel</name>
     </context>
 <context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantità:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Totale:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Incolla l'indirizzo dagli appunti</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorità:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Tassa:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Differenza:</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia ammontare</translation>
+    </message>
+    </context>
+<context>
     <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Ammontare</translation>
+    </message>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -786,12 +1033,24 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
-    </context>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etichetta</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia ammontare</translation>
+    </message>
+</context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
         <translation>Indirizzo</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Ammontare</translation>
     </message>
     <message>
         <source>Label</source>
@@ -801,8 +1060,16 @@ MultiSend: %1</translation>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
         <source>Label</source>
         <translation>Etichetta</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Ammontare</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -812,8 +1079,36 @@ MultiSend: %1</translation>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <source>Quantity:</source>
+        <translation>Quantità:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Totale:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorità:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Tassa:</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Differenza:</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
         <translation>Cancella &amp;All</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia ammontare</translation>
     </message>
     <message>
         <source>anonymous funds</source>
@@ -849,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>L'indirizzo Vsync per firmare il messaggio con</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>L'indirizzo Solaris per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -873,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Vsync</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Solaris</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>L'indirizzo Vsync con cui è stato firmato il messaggio</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>L'indirizzo Solaris con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo specificato Vsync</translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Solaris specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -902,7 +1197,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Controllare l'indirizzo e riprovare.</translation>
+        <translation>Per favore controlla l'indirizzo e riprova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
@@ -920,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Vsync Core</source>
-        <translation>Vsync Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     </context>
 <context>
@@ -929,12 +1224,24 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Ammontare</translation>
+    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
+    </message>
     <message>
         <source>Address</source>
         <translation>Indirizzo</translation>
@@ -943,8 +1250,32 @@ MultiSend: %1</translation>
 <context>
     <name>TransactionView</name>
     <message>
+        <source>Copy address</source>
+        <translation>Copia indirizzo</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etichetta</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia ammontare</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Copia ID transazione</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>File separato da virgola (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confermata</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Label</source>
@@ -980,10 +1311,17 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>vsync-core</name>
+    <name>ZXLRControlDialog</name>
+    </context>
+<context>
+    <name>solaris-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <source>Warning</source>

@@ -1,4 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2018 The Solaris developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -46,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Vsync Core vsync-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Solaris Core solaris-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  vsync-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded vsync transaction") + "\n" +
-                               "  vsync-tx [options] -create [commands]   " + _("Create hex-encoded vsync transaction") + "\n" +
+                               "  solaris-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded solaris transaction") + "\n" +
+                               "  solaris-tx [options] -create [commands]   " + _("Create hex-encoded solaris transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -190,7 +192,8 @@ static void MutateTxAddInput(CMutableTransaction& tx, const string& strInput)
     uint256 txid(strTxid);
 
     static const unsigned int minTxOutSz = 9;
-    static const unsigned int maxVout = MAX_BLOCK_SIZE / minTxOutSz;
+    unsigned int nMaxSize = MAX_BLOCK_SIZE_LEGACY;
+    static const unsigned int maxVout = nMaxSize / minTxOutSz;
 
     // extract and validate vout
     string strVout = strInput.substr(pos + 1, string::npos);
@@ -550,7 +553,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded vsync transaction
+            // param: hex-encoded solaris transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

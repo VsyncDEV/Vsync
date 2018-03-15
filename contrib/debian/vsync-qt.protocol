@@ -1,6 +1,6 @@
 [Protocol]
-exec=vsync-qt '%u'
-protocol=vsync
+exec=solaris-qt '%u'
+protocol=solaris
 input=none
 output=none
 helper=true

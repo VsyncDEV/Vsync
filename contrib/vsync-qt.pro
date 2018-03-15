@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/vsync-config.h \
+           src/solaris-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/vsync-config.h \
+           src/config/solaris-config.h \
            src/crypto/common.h \
 		   src/crypto/scrypt.h \
            src/crypto/hmac_sha256.h \
@@ -229,7 +229,6 @@ HEADERS += src/activemasternode.h \
            src/script/sigcache.h \
            src/script/sign.h \
            src/script/standard.h \
-           src/test/bignum.h \
            src/univalue/univalue.h \
            src/univalue/univalue_escapes.h \
            src/leveldb/db/builder.h \
@@ -340,7 +339,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/vsync.moc \
+           src/qt/solaris.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -381,9 +380,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/vsync-cli.cpp \
-           src/vsync-tx.cpp \
-           src/vsync.cpp \
+           src/solaris-cli.cpp \
+           src/solaris-tx.cpp \
+           src/solaris.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -486,8 +485,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/vsync.cpp \
-           src/qt/vsyncstrings.cpp \
+           src/qt/solaris.cpp \
+           src/qt/solarisstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -565,7 +564,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_vsync.cpp \
+           src/test/test_solaris.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -656,21 +655,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/vsync.qrc src/qt/vsync_locale.qrc
+RESOURCES += src/qt/solaris.qrc src/qt/solaris_locale.qrc
 
-TRANSLATIONS += src/qt/locale/vsync_bg.ts \
-                src/qt/locale/vsync_de.ts \
-                src/qt/locale/vsync_en.ts \
-                src/qt/locale/vsync_es.ts \
-                src/qt/locale/vsync_fi.ts \
-                src/qt/locale/vsync_fr.ts \
-                src/qt/locale/vsync_it.ts \
-                src/qt/locale/vsync_ja.ts \
-                src/qt/locale/vsync_pl.ts \
-                src/qt/locale/vsync_pt.ts \
-                src/qt/locale/vsync_ru.ts \
-                src/qt/locale/vsync_sk.ts \
-                src/qt/locale/vsync_sv.ts \
-                src/qt/locale/vsync_vi.ts \
-                src/qt/locale/vsync_zh_CN.ts \
-                src/qt/locale/vsync_zh_TW.ts
+TRANSLATIONS += src/qt/locale/solaris_bg.ts \
+                src/qt/locale/solaris_de.ts \
+                src/qt/locale/solaris_en.ts \
+                src/qt/locale/solaris_es.ts \
+                src/qt/locale/solaris_fi.ts \
+                src/qt/locale/solaris_fr.ts \
+                src/qt/locale/solaris_it.ts \
+                src/qt/locale/solaris_ja.ts \
+                src/qt/locale/solaris_pl.ts \
+                src/qt/locale/solaris_pt.ts \
+                src/qt/locale/solaris_ru.ts \
+                src/qt/locale/solaris_sk.ts \
+                src/qt/locale/solaris_sv.ts \
+                src/qt/locale/solaris_vi.ts \
+                src/qt/locale/solaris_zh_CN.ts \
+                src/qt/locale/solaris_zh_TW.ts

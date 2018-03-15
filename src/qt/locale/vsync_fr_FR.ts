@@ -30,6 +30,10 @@
         <translation>Supprimer</translation>
     </message>
     <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporter l</translation>
+    </message>
+    <message>
         <source>&amp;Export</source>
         <translation>Exporter</translation>
     </message>
@@ -148,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Vsync will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VSXs from being stolen by malware infecting your computer.</source>
-        <translation>Vsync va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VSXs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Solaris va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos XLRs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VSX&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS VSX&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS XLR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -207,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Vsync Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Vsync que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Solaris que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>L'adresse Vsync avec laquelle signer le message</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>L'adresse Solaris avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -247,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Vsync</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Solaris</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -267,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>L'adresse Vsync avec laquelle le message a été signé</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>L'adresse Solaris avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Vsync renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Solaris renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -354,6 +358,10 @@
         <translation>Portefeuille</translation>
     </message>
     <message>
+        <source>Show general overview of wallet</source>
+        <translation>Vue d'ensemble du portefeuille</translation>
+    </message>
+    <message>
         <source>&amp;Send</source>
         <translation>Envoyer</translation>
     </message>
@@ -404,6 +412,14 @@
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Crypter les clés privées appartenant à votre portefeuille</translation>
+    </message>
+    <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>Sauvegarde du portefeuille...</translation>
+    </message>
+    <message>
+        <source>Backup wallet to another location</source>
+        <translation>Sauvegarder ailleurs le portefeuille </translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -470,6 +486,10 @@
         <translation>Ouvrir le fichier de configuration</translation>
     </message>
     <message>
+        <source>Show Automatic &amp;Backups</source>
+        <translation>Montrer les sauvegardes automatiques</translation>
+    </message>
+    <message>
         <source>Show automatically created wallet backups</source>
         <translation>Montrer les sauvegardes de portefeuille créées automatiquements</translation>
     </message>
@@ -478,8 +498,16 @@
         <translation>Adresses d'envoie</translation>
     </message>
     <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Montrer la liste des adresses et libellés d'envoies utilisés</translation>
+    </message>
+    <message>
         <source>&amp;Receiving addresses...</source>
         <translation>Adresses de réception</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Montrer la liste des adresses et libellés de réception utilisés</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -506,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Vsync address</source>
-        <translation>Envoyer des pièces à une adresse Vsync</translation>
+        <source>Send coins to a Solaris address</source>
+        <translation>Envoyer des pièces à une adresse Solaris</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -518,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Vsync</source>
-        <translation>Modifier les options de configuration pour Vsync</translation>
+        <source>Modify configuration options for Solaris</source>
+        <translation>Modifier les options de configuration pour Solaris</translation>
     </message>
     <message>
-        <source>Sign messages with your Vsync addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Vsync pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your Solaris addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse Solaris pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Vsync addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Vsync spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Solaris spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -536,10 +564,6 @@
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
         <translation>Crypter et décrypter les clés privées en utilisant une phrase secrète</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to Vsync network</source>
-        <translation><numerusform>%n connection(s) au réseau Vsync</numerusform><numerusform>%n connection(s) au réseau Vsync</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -557,25 +581,9 @@
         <source>Up to date</source>
         <translation>A jour</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n heure</numerusform><numerusform>%n heures </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n jours</numerusform><numerusform>%n jours</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semaine</numerusform><numerusform>%n semaines</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 et %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n an</numerusform><numerusform>%n ans</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -591,7 +599,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>Erreur </translation>
+        <translation>Erreur</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -645,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (vsync.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (vsync.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (solaris.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (solaris.conf).</translation>
     </message>
 </context>
 <context>
@@ -717,6 +725,10 @@ Adresse : %4
     <message>
         <source>Copy address</source>
         <translation>Copier l'adresse</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copier le montant</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -842,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Vsync address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Vsync valide</translation>
+        <source>The entered address "%1" is not a valid Solaris address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Solaris valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -920,18 +932,6 @@ Adresse : %4
     <message>
         <source>0</source>
         <translation>0</translation>
-    </message>
-    <message>
-        <source>All Masternodes</source>
-        <translation>Toutes les masternodes</translation>
-    </message>
-    <message>
-        <source>Filter List:</source>
-        <translation>Liste de filtres :</translation>
-    </message>
-    <message>
-        <source>Filter masternode list</source>
-        <translation>Filtrer la liste des masternodes</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 VSX</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 VSX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 VSX</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 VSX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 VSX to anonymize 10000 VSX</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 VSX pour anonymiser 10000 VSX</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 XLR pour anonymiser 10000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 VSX to anonymize 10000 VSX</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 VSX pour anonymiser 10000 VSX</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 XLR pour anonymiser 10000 XLR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 VSX per 10000 VSX you anonymize.</source>
-        <translation>0.1 VSX par 10000 VSX vous anonymisez.</translation>
+        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <translation>0.1 XLR par 10000 XLR vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1103,6 +1103,73 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <message>
         <source>Version</source>
         <translation>Version</translation>
+    </message>
+    </context>
+<context>
+    <name>PrivacyDialog</name>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Quantité :</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Montant :</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Payer à :</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Choisir l'adresse précédemment utilisée</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Copier l'adresse depuis le presse-papier</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorité :</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Commission :</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Fonds insuffisants!</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>moyen</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Copier la quantité</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copier le montant</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirmer l'envoi des pièces</translation>
     </message>
     </context>
 <context>
@@ -1334,16 +1401,12 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>Inputs...</source>
-        <translation>Entrés...</translation>
-    </message>
-    <message>
         <source>Insufficient funds!</source>
         <translation>Fonds insuffisants!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantité</translation>
+        <translation>Quantité :</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1370,8 +1433,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 VSX</source>
-        <translation>0 VSX</translation>
+        <source>0 XLR</source>
+        <translation>0 XLR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1419,7 +1482,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copier la comission</translation>
+        <translation>Copier la commission</translation>
     </message>
     <message>
         <source>Copy after fee</source>
@@ -1461,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Vsync address to send the payment to</source>
-        <translation>L'adresse Vsync à laquelle envoyer le paiement</translation>
+        <source>The Solaris address to send the payment to</source>
+        <translation>L'adresse Solaris à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1474,7 +1537,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Copié l'adresse depuis le presse-papier</translation>
+        <translation>Copier l'adresse depuis le presse-papier</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1507,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Vsync address to sign the message with</source>
-        <translation>L</translation>
+        <source>The Solaris address to sign the message with</source>
+        <translation>L'adresse Solaris avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1520,7 +1583,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Copié l'adresse depuis le presse-papier</translation>
+        <translation>Copier l'adresse depuis le presse-papier</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1535,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Vsync address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Vsync</translation>
+        <source>Sign the message to prove you own this Solaris address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Solaris</translation>
     </message>
     <message>
-        <source>The Vsync address the message was signed with</source>
-        <translation>L'adresse Vsync avec laquelle le message a été signé</translation>
+        <source>The Solaris address the message was signed with</source>
+        <translation>L'adresse Solaris avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Vsync address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Vsync renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Solaris renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1629,9 +1692,49 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
-    </context>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Date et heure a laquelle la transaction fut reçue</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Type de transaction.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Adresse destinataire de la transaction.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Montant retiré ou ajouté a la balance.</translation>
+    </message>
+</context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Tous</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Aujourd'hui</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Cette semaine</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Ce mois</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Le mois dernier</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Cette année</translation>
+    </message>
     <message>
         <source>Copy address</source>
         <translation>Copier l'adresse</translation>
@@ -1690,14 +1793,25 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporter</translation>
+        <translation>Exporter</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporter l</translation>
     </message>
     </context>
 <context>
-    <name>vsync-core</name>
+    <name>ZXLRControlDialog</name>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    </context>
+<context>
+    <name>solaris-core</name>
     <message>
         <source>Error</source>
-        <translation>Erreur </translation>
+        <translation>Erreur</translation>
     </message>
     <message>
         <source>Information</source>

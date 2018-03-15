@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The Vsync developers
+// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2018 The Solaris developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(VSX);
-    unitlist.append(mVSX);
-    unitlist.append(uVSX);
+    unitlist.append(XLR);
+    unitlist.append(mXLR);
+    unitlist.append(uXLR);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case VSX:
-    case mVSX:
-    case uVSX:
+    case XLR:
+    case mXLR:
+    case uXLR:
         return true;
     default:
         return false;
@@ -40,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case VSX:
-        return QString("vsync");
-    case mVSX:
-        return QString("mvsync");
-    case uVSX:
-        return QString::fromUtf8("uvsync");
+    case XLR:
+        return QString("solaris");
+    case mXLR:
+        return QString("msolaris");
+    case uXLR:
+        return QString::fromUtf8("usolaris");
     default:
         return QString("???");
     }
@@ -55,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VSX:
-            return QString("VSX");
-        case mVSX:
-            return QString("mVSX");
-        case uVSX:
-            return QString::fromUtf8("μVSX");
+        case XLR:
+            return QString("XLR");
+        case mXLR:
+            return QString("mXLR");
+        case uXLR:
+            return QString::fromUtf8("μXLR");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VSX:
-            return QString("tVSX");
-        case mVSX:
-            return QString("mtVSX");
-        case uVSX:
-            return QString::fromUtf8("μtVSX");
+        case XLR:
+            return QString("tXLR");
+        case mXLR:
+            return QString("mtXLR");
+        case uXLR:
+            return QString::fromUtf8("μtXLR");
         default:
             return QString("???");
         }
@@ -82,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case VSX:
-            return QString("VSX");
-        case mVSX:
-            return QString("Milli-VSX (1 / 1" THIN_SP_UTF8 "000)");
-        case uVSX:
-            return QString("Micro-VSX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case XLR:
+            return QString("XLR");
+        case mXLR:
+            return QString("Milli-XLR (1 / 1" THIN_SP_UTF8 "000)");
+        case uXLR:
+            return QString("Micro-XLR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case VSX:
-            return QString("TestVSXs");
-        case mVSX:
-            return QString("Milli-TestVSX (1 / 1" THIN_SP_UTF8 "000)");
-        case uVSX:
-            return QString("Micro-TestVSX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case XLR:
+            return QString("TestXLRs");
+        case mXLR:
+            return QString("Milli-TestXLR (1 / 1" THIN_SP_UTF8 "000)");
+        case uXLR:
+            return QString("Micro-TestXLR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case VSX:
+    case XLR:
         return 100000000;
-    case mVSX:
+    case mXLR:
         return 100000;
-    case uVSX:
+    case uXLR:
         return 100;
     default:
         return 100000000;
@@ -122,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case VSX:
+    case XLR:
         return 8;
-    case mVSX:
+    case mXLR:
         return 5;
-    case uVSX:
+    case uXLR:
         return 2;
     default:
         return 0;
@@ -282,5 +283,5 @@ QVariant BitcoinUnits::data(const QModelIndex& index, int role) const
 
 CAmount BitcoinUnits::maxMoney()
 {
-    return MAX_MONEY;
+    return Params().MaxMoneyOut();
 }

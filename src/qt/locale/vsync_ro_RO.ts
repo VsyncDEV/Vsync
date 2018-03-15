@@ -112,6 +112,9 @@
     <name>PeerTableModel</name>
     </context>
 <context>
+    <name>PrivacyDialog</name>
+    </context>
+<context>
     <name>QObject</name>
     </context>
 <context>
@@ -180,6 +183,9 @@
     </message>
     </context>
 <context>
-    <name>vsync-core</name>
+    <name>ZXLRControlDialog</name>
+    </context>
+<context>
+    <name>solaris-core</name>
     </context>
 </TS>
