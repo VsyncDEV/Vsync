@@ -838,39 +838,43 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
         CAmount nSubsidy = 500 * COIN;
         return ((nSubsidy / 100) * 10) * 146;
     }
-	
+
     //get block value and calculate from that
     CAmount nSubsidy = 0;
     if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
-        nSubsidy = 0.2 * COIN;
-	} else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight < 151200) {
-		nSubsidy = 0.2 * COIN;
+        nSubsidy = 50 * COIN;
     } else if (nHeight <= 302399 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 0.1 * COIN;
+        nSubsidy = 50 * COIN;
     } else if (nHeight <= 345599 && nHeight >= 302400) {
-        nSubsidy = 0.095 * COIN;
+        nSubsidy = 45 * COIN;
     } else if (nHeight <= 388799 && nHeight >= 345600) {
-        nSubsidy = 0.09 * COIN;
+        nSubsidy = 40 * COIN;
     } else if (nHeight <= 431999 && nHeight >= 388800) {
-        nSubsidy = 0.085 * COIN;
+        nSubsidy = 35 * COIN;
     } else if (nHeight <= 475199 && nHeight >= 432000) {
-        nSubsidy = 0.08 * COIN;
+        nSubsidy = 30 * COIN;
     } else if (nHeight <= 518399 && nHeight >= 475200) {
-        nSubsidy = 0.075 * COIN;
+        nSubsidy = 25 * COIN;
     } else if (nHeight <= 561599 && nHeight >= 518400) {
-        nSubsidy = 0.07 * COIN;
+        nSubsidy = 20 * COIN;
     } else if (nHeight <= 604799 && nHeight >= 561600) {
-        nSubsidy = 0.075 * COIN;
+        nSubsidy = 15 * COIN;
     } else if (nHeight <= 647999 && nHeight >= 604800) {
-        nSubsidy = 0.07 * COIN;
+        nSubsidy = 10 * COIN;
     } else if (nHeight >= 648000) {
-        nSubsidy = 0.025 * COIN;
+        nSubsidy = 5 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
 
-    return ((nSubsidy / 100) * 10) * 1440 * 30;
+    // Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
+    if (nHeight <= 172800) {
+        return 648000 * COIN;
+    } else {
+        return ((nSubsidy / 100) * 10) * 1440 * 30;
+    }
 }
+
 
 void CBudgetManager::NewBlock()
 {
