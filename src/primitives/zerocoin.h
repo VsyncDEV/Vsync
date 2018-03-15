@@ -1,8 +1,8 @@
-// Copyright (c) 2017 The Solaris developers
+// Copyright (c) 2017 The Vsync developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef Solaris_ZEROCOIN_H
-#define Solaris_ZEROCOIN_H
+#ifndef Vsync_ZEROCOIN_H
+#define Vsync_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //Solaris_ZEROCOIN_H
+#endif //Vsync_ZEROCOIN_H

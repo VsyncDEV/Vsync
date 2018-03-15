@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2017-2018 The Vsync developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case XLR:
-        return QString("solaris");
+        return QString("vsync");
     case mXLR:
-        return QString("msolaris");
+        return QString("mvsync");
     case uXLR:
-        return QString::fromUtf8("usolaris");
+        return QString::fromUtf8("uvsync");
     default:
         return QString("???");
     }

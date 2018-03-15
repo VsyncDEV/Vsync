@@ -1,19 +1,19 @@
 [Unit]
-Description=Solaris's distributed currency daemon
+Description=Vsync's distributed currency daemon
 After=network.target
 
 [Service]
-User=solaris
-Group=solaris
+User=vsync
+Group=vsync
 
 Type=forking
-PIDFile=/var/lib/solarisd/solarisd.pid
+PIDFile=/var/lib/vsyncd/vsyncd.pid
 
-ExecStart=/usr/bin/solarisd -daemon -pid=/var/lib/solarisd/solarisd.pid \
-          -conf=/etc/solaris/solaris.conf -datadir=/var/lib/solarisd
+ExecStart=/usr/bin/vsyncd -daemon -pid=/var/lib/vsyncd/vsyncd.pid \
+          -conf=/etc/vsync/vsync.conf -datadir=/var/lib/vsyncd
 
-ExecStop=-/usr/bin/solaris-cli -conf=/etc/solaris/solaris.conf \
-         -datadir=/var/lib/solarisd stop
+ExecStop=-/usr/bin/vsync-cli -conf=/etc/vsync/vsync.conf \
+         -datadir=/var/lib/vsyncd stop
 
 Restart=always
 PrivateTmp=true

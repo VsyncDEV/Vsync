@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2017-2018 The Vsync developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "libzerocoin/Params.h"
@@ -114,12 +114,12 @@ public:
         pchMessageStart[3] = 0xa1;
         vAlertPubKey = ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d");
         nDefaultPort = 60020;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Vsync starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Solaris: 1 minute
-        nTargetSpacing = 1 * 60;  // Solaris: 1 minute
+        nTargetTimespan = 1 * 60; // Vsync: 1 minute
+        nTargetSpacing = 1 * 60;  // Vsync: 1 minute
         nMaturity = 101;
 		nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
@@ -130,7 +130,7 @@ public:
         nZerocoinStartTime = 1524060000; // Wednesday 18 April 2018 14:00:00 UTC
 		nZerocoinStartHeight = 259300;
 		
-		const char* pszTimestamp = "Solaris 30-09-2017";
+		const char* pszTimestamp = "Vsync 30-09-2017";
 		
         CMutableTransaction txNew;
         txNew.vin.resize(1);
@@ -151,20 +151,20 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
         assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
 		
-        vSeeds.push_back(CDNSSeedData("solarisnode.dyndns.org", "solarisnode.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode1.dyndns.org", "solarisnode1.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode2.dyndns.org", "solarisnode2.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode3.dyndns.org", "solarisnode3.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode4.dyndns.org", "solarisnode4.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode5.dyndns.org", "solarisnode5.dyndns.org"));
-		vSeeds.push_back(CDNSSeedData("solarisnode6.dyndns.org", "solarisnode6.dyndns.org"));
+        vSeeds.push_back(CDNSSeedData("vsyncnode.dyndns.org", "vsyncnode.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode1.dyndns.org", "vsyncnode1.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode2.dyndns.org", "vsyncnode2.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode3.dyndns.org", "vsyncnode3.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode4.dyndns.org", "vsyncnode4.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode5.dyndns.org", "vsyncnode5.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("vsyncnode6.dyndns.org", "vsyncnode6.dyndns.org"));
 		
-		vSeeds.push_back(CDNSSeedData("node1.solariscoin.com", "node1.solariscoin.com"));
-		vSeeds.push_back(CDNSSeedData("node2.solariscoin.com", "node2.solariscoin.com"));
-		vSeeds.push_back(CDNSSeedData("node3.solariscoin.com", "node3.solariscoin.com"));
-		vSeeds.push_back(CDNSSeedData("node4.solariscoin.com", "node4.solariscoin.com"));
-		vSeeds.push_back(CDNSSeedData("node5.solariscoin.com", "node5.solariscoin.com"));
-		vSeeds.push_back(CDNSSeedData("node6.solariscoin.com", "node6.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node1.vsynccoin.com", "node1.vsynccoin.com"));
+		vSeeds.push_back(CDNSSeedData("node2.vsynccoin.com", "node2.vsynccoin.com"));
+		vSeeds.push_back(CDNSSeedData("node3.vsynccoin.com", "node3.vsynccoin.com"));
+		vSeeds.push_back(CDNSSeedData("node4.vsynccoin.com", "node4.vsynccoin.com"));
+		vSeeds.push_back(CDNSSeedData("node5.vsynccoin.com", "node5.vsynccoin.com"));
+		vSeeds.push_back(CDNSSeedData("node6.vsynccoin.com", "node6.vsynccoin.com"));
 
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -228,8 +228,8 @@ public:
         vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
         nDefaultPort = 51474;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // Solaris: 1 day
-        nTargetSpacing = 1 * 60;  // Solaris: 1 minute
+        nTargetTimespan = 1 * 60; // Vsync: 1 day
+        nTargetSpacing = 1 * 60;  // Vsync: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -243,18 +243,18 @@ public:
         //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "solaris-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "solaris-testnet.seed2.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "vsync-testnet.seed.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "vsync-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet solaris addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet solaris script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet vsync addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet vsync script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet solaris BIP32 pubkeys start with 'DRKV'
+        // Testnet vsync BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet solaris BIP32 prvkeys start with 'DRKP'
+        // Testnet vsync BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet solaris BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet vsync BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;
@@ -294,8 +294,8 @@ public:
         pchMessageStart[3] = 0xac;
         nSubsidyHalvingInterval = 150;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Solaris: 1 day
-        nTargetSpacing = 1 * 60;        // Solaris: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Vsync: 1 day
+        nTargetSpacing = 1 * 60;        // Vsync: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between solaris-cli and solarisd)
- * of a given instance of the Solaris system.
+ * CBaseChainParams defines the base parameters (shared between vsync-cli and vsyncd)
+ * of a given instance of the Vsync system.
  */
 class CBaseChainParams
 {

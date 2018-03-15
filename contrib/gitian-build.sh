@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the solaris, gitian-builder, gitian.sigs, and solaris-detached-sigs.
+Run this script from the directory containing the vsync, gitian-builder, gitian.sigs, and vsync-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -237,7 +237,7 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/solaris-project/gitian.sigs.git
+    git clone https://github.com/vsync-project/gitian.sigs.git
     git clone https://github.com/vsynccrypto/vsx-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./solaris
+pushd ./vsync
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./solaris-binaries/${VERSION}
+	mkdir -p ./vsync-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../solaris/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../vsync/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/solaris-*.tar.gz build/out/src/solaris-*.tar.gz ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vsync=${COMMIT} --url vsync=${url} ../vsync/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/vsync-*.tar.gz build/out/src/vsync-*.tar.gz ../vsync-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/solaris-*-win-unsigned.tar.gz inputs/solaris-win-unsigned.tar.gz
-	    mv build/out/solaris-*.zip build/out/solaris-*.exe ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vsync=${COMMIT} --url vsync=${url} ../vsync/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/vsync-*-win-unsigned.tar.gz inputs/vsync-win-unsigned.tar.gz
+	    mv build/out/vsync-*.zip build/out/vsync-*.exe ../vsync-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/solaris-*-osx-unsigned.tar.gz inputs/solaris-osx-unsigned.tar.gz
-	    mv build/out/solaris-*.tar.gz build/out/solaris-*.dmg ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vsync=${COMMIT} --url vsync=${url} ../vsync/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/vsync-*-osx-unsigned.tar.gz inputs/vsync-osx-unsigned.tar.gz
+	    mv build/out/vsync-*.tar.gz build/out/vsync-*.dmg ../vsync-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/solaris-*.tar.gz build/out/src/solaris-*.tar.gz ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vsync=${COMMIT} --url vsync=${url} ../vsync/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/vsync-*.tar.gz build/out/src/vsync-*.tar.gz ../vsync-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../solaris/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../vsync/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../solaris/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../vsync/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../solaris/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../vsync/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../vsync/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../vsync/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../vsync/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../solaris/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/solaris-*win64-setup.exe ../solaris-binaries/${VERSION}
-	    mv build/out/solaris-*win32-setup.exe ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vsync/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/vsync-*win64-setup.exe ../vsync-binaries/${VERSION}
+	    mv build/out/vsync-*win32-setup.exe ../vsync-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/solaris-osx-signed.dmg ../solaris-binaries/${VERSION}/solaris-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vsync/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../vsync/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/vsync-osx-signed.dmg ../vsync-binaries/${VERSION}/vsync-${VERSION}-osx.dmg
 	fi
 	popd
 

@@ -7,12 +7,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/solaris
-src/solarisd
-src/solaris-cli
-src/solaris-tx
-src/test/test_solaris
-src/qt/test/test_solaris-qt
+src/vsync
+src/vsyncd
+src/vsync-cli
+src/vsync-tx
+src/test/test_vsync
+src/qt/test/test_vsync-qt
 
 # autoreconf
 Makefile.in
@@ -38,8 +38,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/solaris-config.h
-src/config/solaris-config.h.in
+src/config/vsync-config.h
+src/config/vsync-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -65,7 +65,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.solaris
+.vsync
 *.a
 *.pb.cc
 *.pb.h
@@ -84,12 +84,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-solaris-qt
-Solaris-Qt.app
+vsync-qt
+Vsync-Qt.app
 
 # Unit-tests
 Makefile.test
-solaris-qt_test
+vsync-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -105,7 +105,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_solaris.coverage/
+test_vsync.coverage/
 total.coverage/
 coverage_percent.txt
 

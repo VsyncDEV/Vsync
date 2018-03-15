@@ -263,10 +263,10 @@ By contributing to this repository, you agree to license your work under the
 MIT license unless specified otherwise in `contrib/debian/copyright` or at
 the top of the file itself. Any work contributed where you are not the original
 author must contain its license header with the original author(s) and source.
-Contributing to Solaris Core
+Contributing to Vsync Core
 ============================
 
-The Solaris Core project operates an open contributor model where anyone is
+The Vsync Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing
 and patches. This document explains the practical process and guidelines for
 contributing.
@@ -322,12 +322,12 @@ the pull request affects. Valid areas as:
 
   - *Consensus* for changes to consensus critical code
   - *Docs* for changes to the documentation
-  - *Qt* for changes to solaris-qt
+  - *Qt* for changes to vsync-qt
   - *Minting* for changes to the minting code
   - *Net* or *P2P* for changes to the peer-to-peer network code
   - *RPC/REST* for changes to the RPC or REST APIs
   - *Scripts and tools* for changes to the scripts and tools
-  - *Tests* for changes to the solaris unit tests or QA tests
+  - *Tests* for changes to the vsync unit tests or QA tests
   - *Trivial* should **only** be used for PRs that do not change generated
     executable code. Notably, refactors (change of function arguments and code
     reorganization) and changes in behavior should **not** be marked as trivial.
@@ -422,10 +422,10 @@ where possible keep them short, un-complex and easy to verify.
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Solaris Core project, and is not to be
-confused with overall Solaris Network Protocol consensus changes.
+The following applies to code changes to the Vsync Core project, and is not to be
+confused with overall Vsync Network Protocol consensus changes.
 
-Whether a pull request is merged into Solaris Core rests with the project merge
+Whether a pull request is merged into Vsync Core rests with the project merge
 maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general
@@ -439,7 +439,7 @@ In general, all pull requests must:
   - be well peer reviewed;
   - follow code style guidelines;
 
-Patches that change Solaris consensus rules are considerably more involved than
+Patches that change Vsync consensus rules are considerably more involved than
 normal because they affect the entire ecosystem and so must be preceded by
 extensive discussions and clear detailing. While each case will be different,
 one should be prepared to expend more time and effort than for other kinds of
@@ -479,7 +479,7 @@ higher in terms of discussion and peer review requirements, keeping in mind that
 mistakes could be very costly to the wider community. This includes refactoring
 of consensus critical code.
 
-Where a patch set proposes to change the Solaris consensus, it must have been
+Where a patch set proposes to change the Vsync consensus, it must have been
 discussed extensively on the forums and Slack, be accompanied by a widely
 discussed Proposal and have a generally widely perceived technical consensus of being
 a worthwhile change based on the judgement of the maintainers.
@@ -519,7 +519,7 @@ about:
 Release Policy
 --------------
 
-The project leader is the release manager for each Solaris Core release.
+The project leader is the release manager for each Vsync Core release.
 
 Copyright
 ---------
