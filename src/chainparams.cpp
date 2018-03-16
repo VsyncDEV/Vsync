@@ -96,22 +96,22 @@ public:
         pchMessageStart[2] = 0x0a;
         pchMessageStart[3] = 0x5a;
         vAlertPubKey = ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013");
-        nDefaultPort = 65010;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Vsync starting difficulty is 1 / 2^12
+        nDefaultPort = 65011;
+        bnProofOfWorkLimit = ~uint256(0) >> 0; // Vsync starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Vsync: 1 minute
         nTargetSpacing = 1 * 60;  // Vsync: 1 minute
-        nMaturity = 101;
+        nMaturity = 2;
 		nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 1000;
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nZerocoinStartTime = 1524060000; // Wednesday 18 April 2018 14:00:00 UTC
-		nZerocoinStartHeight = 800000;
+		nZerocoinStartHeight = 1100;
 		
 		const char* pszTimestamp = "Vsync 27-08-2017";
 		
