@@ -6,7 +6,7 @@ addons:
   hostname: vsync-tester
 
 os: linux
-language: C++
+language: generic
 cache:
   directories:
   - depends/built

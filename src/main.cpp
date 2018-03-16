@@ -1,8 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Vsync developers
+// Copyright (c) 2015-2017 The Vsync developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1671,11 +1670,11 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = blockValue / 2;
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = mnodeman.size() * 10000  * COIN;
+        int64_t mNodeCoins = mnodeman.size() * 10000 * COIN;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
         if(nMasternodeCount)
-            mNodeCoins = nMasternodeCount * 10000  * COIN;
+            mNodeCoins = nMasternodeCount * 10000 * COIN;
 
         if (fDebug)
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
@@ -1683,7 +1682,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
         if (mNodeCoins == 0) {
             ret = 0;
-        } else if (nHeight <= 325000) {
+        } else if (nHeight < 325000) {
             if (mNodeCoins <= (nMoneySupply * .05) && mNodeCoins > 0) {
                 ret = blockValue * .85;
             } else if (mNodeCoins <= (nMoneySupply * .1) && mNodeCoins > (nMoneySupply * .05)) {
@@ -2422,12 +2421,10 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     nTimeConnect += nTime1 - nTimeStart;
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
-    CAmount nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
-	
-    if (!IsBlockValueValid(block, nExpectedMint, pindex->nMint)) {
+    if (!IsInitialBlockDownload() && !IsBlockValueValid(block, GetBlockValue(pindex->pprev->nHeight))) {
         return state.DoS(100,
-            error("ConnectBlock() : reward pays too much (actual=%s vs limit=%s)",
-                FormatMoney(pindex->nMint), FormatMoney(nExpectedMint)),
+            error("ConnectBlock() : reward pays too much (actual=%d vs limit=%d)",
+                block.vtx[0].GetValueOut(), GetBlockValue(pindex->pprev->nHeight)),
             REJECT_INVALID, "bad-cb-amount");
     }
 
@@ -4546,8 +4543,7 @@ void static ProcessGetData(CNode* pfrom)
                         }
                     }
                 }
-		//Don't send not-validated blocks
-		if (send && (mi->second->nStatus & BLOCK_HAVE_DATA)) {   
+                if (send) {
                     // Send block from disk
                     CBlock block;
                     if (!ReadBlockFromDisk(block, (*mi).second))
