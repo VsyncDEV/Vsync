@@ -2,12 +2,20 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+        <source>Right-click to edit address or label</source>
+        <translation>右クリックでアドレスもしくはラベルを編集</translation>
+    </message>
+    <message>
         <source>Create a new address</source>
         <translation>新しいアドレスを作成</translation>
     </message>
     <message>
         <source>&amp;New</source>
         <translation>＆新規</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>クリップボードへ現在選択しているアドレスをコピー</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -154,6 +162,9 @@
     </message>
     </context>
 <context>
+    <name>MultisigDialog</name>
+    </context>
+<context>
     <name>ObfuscationConfig</name>
     </context>
 <context>
@@ -170,6 +181,9 @@
     </context>
 <context>
     <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>PrivacyDialog</name>
     </context>
 <context>
     <name>QObject</name>
@@ -250,6 +264,9 @@
         <source>&amp;Export</source>
         <translation>＆エクスポート</translation>
     </message>
+    </context>
+<context>
+    <name>ZVSXControlDialog</name>
     </context>
 <context>
     <name>vsync-core</name>
