@@ -5,7 +5,7 @@
 // Copyright (c) 2017-2018 The Vsync developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
+#include "libzerocoin/Params.h"
 #include "chainparams.h"
 #include "random.h"
 #include "util.h"
@@ -56,14 +56,22 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(200000, uint256("0x00000000025e7ab5beaf0c52f108e098660b1a069df2f7f693755e4262ea152e"))
 	(220000, uint256("0x00000000001b5bdc9e4dd9d5f60b9c95e2f7a9eb23407f429bcb07cd35ff8073"))
 	(259230, uint256("0x12f886a6dd06fe14862d38f2ef6a65fffe1c789eebe9a3e5834b744904ff027c"))
-	(260396, uint256("0x8e9f4daf541b1cd4db0aff86daf873a57795b85f8f6cc6a690993b103acfad7b"));
+	(276181, uint256("0x694e15a11b410cad9c25c09b129b8d06d03586595fa1b0311d08bc9be164f7a5"))
+	(277129, uint256("0x8c6285e8b9c2452bfa4db79b429df92b4ad8455819840ac6a1dbbf4c47984bf7"))
+	(277130, uint256("0x7f26ad822d47470c33f58764075a9c4dff3680eb489dedc5ff29b0f55cd435af"))
+	(277131, uint256("0xaa59a01a67888f66bdc2a9ce102c1bd7b5d5607d1904a02a6c999f67cc1a810e"))
+	(277132, uint256("0xb924d502ba776ba348e568151b5ae955024edb515a93b4e1350a5c2237b34b6b"))
+	(278029, uint256("0x8814aef167d749b0bc90cb58414f9171aa44aabf24936e4d92ba457c6ac8724f"))
+	(278092, uint256("0xc5c97c919d16448fd8fce9d6756d94c1c5c0e5e9c633e472a442bf61a79a3502"));
 	
+	
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1519592801, // * UNIX timestamp of last checkpoint block
-    298269,    // * total number of transactions between genesis and last checkpoint
+    1521574776, // * UNIX timestamp of last checkpoint block
+    334460,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    2880        // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -79,6 +87,15 @@ static const Checkpoints::CCheckpointData dataRegtest = {
     1454124731,
     0,
     100};
+
+libzerocoin::ZerocoinParams* CChainParams::Zerocoin_Params() const
+{
+    assert(this);
+    static CBigNum bnTrustedModulus(zerocoinModulus);
+    static libzerocoin::ZerocoinParams ZCParams = libzerocoin::ZerocoinParams(bnTrustedModulus);
+
+    return &ZCParams;
+}
 class CMainParams : public CChainParams
 {
 public:
@@ -103,13 +120,23 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Vsync: 1 minute
         nTargetSpacing = 1 * 60;  // Vsync: 1 minute
-        nLastPOWBlock = 259200;
         nMaturity = 101;
+		nMaxMoneyOut = 10000000000 * COIN;
+        /** Height or Time Based Activations **/
+        nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "Vsync 27-08-2017";
+		
+        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
+		nBlockEnforceInvalidUTXO = 350000;
+        nZerocoinStartTime = 1524344400; //Saturday 21 April 2018 21:00:00 UTC
+		nZerocoinStartHeight = 300000;
+		
+		const char* pszTimestamp = "Vsync 27-08-2017";
+		
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
+				
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013") << OP_CHECKSIG;
@@ -125,7 +152,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72"));
         assert(genesis.hashMerkleRoot == uint256("0x55e07427d0ca8579ca7296908f464699df9a54782d28bda012656c9d33a3a3c4"));
 		
-        vSeeds.push_back(CDNSSeedData("vsyncseed.vsync.pw", "vsyncseed.vsync.pw"));
+		vSeeds.push_back(CDNSSeedData("vsyncseed.vsync.pw", "vsyncseed.vsync.pw"));
 		vSeeds.push_back(CDNSSeedData("node.vsync.pw", "node.vsync.pw"));
 		vSeeds.push_back(CDNSSeedData("node1.vsync.pw", "node1.vsync.pw"));
 		vSeeds.push_back(CDNSSeedData("node2.vsync.pw", "node2.vsync.pw"));
@@ -133,6 +160,9 @@ public:
 		vSeeds.push_back(CDNSSeedData("node4.vsync.pw", "node4.vsync.pw"));
 		vSeeds.push_back(CDNSSeedData("node5.vsync.pw", "node5.vsync.pw"));
 		vSeeds.push_back(CDNSSeedData("node6.vsync.pw", "node6.vsync.pw"));
+		vSeeds.push_back(CDNSSeedData("node7.vsync.pw", "node7.vsync.pw"));
+		vSeeds.push_back(CDNSSeedData("node8.vsync.pw", "node8.vsync.pw"));
+
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 70);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -156,6 +186,21 @@ public:
         
         strObfuscationPoolDummyAddress = "VTHprUHgceGPTTaAmajjcELftpUTKNhyJt";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
+
+        /** Zerocoin */
+        zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
+            "4069182906412495150821892985591491761845028084891200728449926873928072877767359714183472702618963750149718246911"
+            "6507761337985909570009733045974880842840179742910064245869181719511874612151517265463228221686998754918242243363"
+            "7259085141865462043576798423387184774447920739934236584823824281198163815010674810451660377306056201619676256133"
+            "8441436038339044149526344321901146575444541784240209246165157233507787077498171257724679629263863563732899121548"
+            "31438167899885040445364023527381951378636564391212010397122822120720357";
+        nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
+        nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
+        nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19
+        nRequiredAccumulation = 2;
+        nDefaultSecurityLevel = 100; //full security level for accumulators
+        nZerocoinHeaderVersion = 4; //Block headers must be this version once zerocoin is active
+        nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -184,6 +229,11 @@ public:
         nTargetSpacing = 1 * 60;  // Vsync: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
+        nMasternodeCountDrift = 4;
+        nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
+        nMaxMoneyOut = 43199500 * COIN;
+        nZerocoinStartHeight = 201576;
+        nBlockEnforceInvalidUTXO = 9902850; //Start enforcing the invalid UTXO's
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1454124731;
         genesis.nNonce = 2402015;
@@ -216,6 +266,8 @@ public:
         strSporkKey = "04348C2F50F90267E64FACC65BFDC9D0EB147D090872FB97ABAE92E9A36E6CA60983E28E741F8E7277B11A7479B626AC115BA31463AC48178A5075C5A9319D4A38";
         strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
+        nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
+                                       // here because we only have a 8 block finalization window on testnet
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -295,14 +347,9 @@ public:
     virtual void setAllowMinDifficultyBlocks(bool afAllowMinDifficultyBlocks) { fAllowMinDifficultyBlocks = afAllowMinDifficultyBlocks; }
     virtual void setSkipProofOfWorkCheck(bool afSkipProofOfWorkCheck) { fSkipProofOfWorkCheck = afSkipProofOfWorkCheck; }
 };
-static CUnitTestParams unitTestParams;
+
 static CChainParams* pCurrentParams = 0;
-CModifiableParams* ModifiableParams()
-{
-    assert(pCurrentParams);
-    assert(pCurrentParams == &unitTestParams);
-    return (CModifiableParams*)&unitTestParams;
-}
+
 const CChainParams& Params()
 {
     assert(pCurrentParams);
@@ -317,8 +364,6 @@ CChainParams& Params(CBaseChainParams::Network network)
         return testNetParams;
     case CBaseChainParams::REGTEST:
         return regTestParams;
-    case CBaseChainParams::UNITTEST:
-        return unitTestParams;
     default:
         assert(false && "Unimplemented network");
         return mainParams;
