@@ -38,13 +38,13 @@ Instructions: Homebrew
 
 #### Install dependencies using Homebrew
 
-        brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+        brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5 libzmq
 
 ### Building `vsyncd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/Vsync-Project/Vsync.git
+        git clone https://github.com/VsyncCrypto/VSX.git
         cd Vsync
 
 2.  Build vsyncd:

@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The Vsync developers
+// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2018 The Vsync developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "Vsync"
-#define QAPP_ORG_DOMAIN "vsync.pw"
+#define QAPP_ORG_DOMAIN "vsync.com"
 #define QAPP_APP_NAME_DEFAULT "Vsync-Qt"
 #define QAPP_APP_NAME_TESTNET "Vsync-Qt-testnet"
 
