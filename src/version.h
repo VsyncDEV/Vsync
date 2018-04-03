@@ -12,17 +12,29 @@
  * network protocol versioning
  */
 
+<<<<<<< HEAD
 static const int PROTOCOL_VERSION = 70715;
+=======
+static const int PROTOCOL_VERSION = 70712;
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 
 //! initial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
 
 //! In this version, 'getheaders' was introduced.
+<<<<<<< HEAD
 static const int GETHEADERS_VERSION = 70715;
 
 //! disconnect from peers older than this proto version
 static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70715;
 static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70715;
+=======
+static const int GETHEADERS_VERSION = 70710;
+
+//! disconnect from peers older than this proto version
+static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70710;
+static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70710;
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 
 //! nTime field added to CAddress, starting with this version;
 //! if possible, avoid requesting addresses nodes older than this
