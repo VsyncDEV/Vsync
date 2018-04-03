@@ -1,5 +1,9 @@
 <h2><strong>Vsync Staging Repository (Version 3.6.5.0)</strong></h2>
+<<<<<<< HEAD
 <p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048.0</p>
+=======
+<p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048</p>
+>>>>>>> d692d04895efabfe95334b5ea56662bad980aa22
 <h3><strong>Coin specs:</strong></h3>
 <p><strong><span style="color: #800080;"><em>Algo:</em></span></strong></p>
 <ul>
