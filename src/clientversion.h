@@ -16,8 +16,13 @@
 //! These need to be macros, as clientversion.cpp's and vsync*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 3
 <<<<<<< HEAD
+<<<<<<< HEAD
 #define CLIENT_VERSION_MINOR 6
 #define CLIENT_VERSION_REVISION 5
+=======
+#define CLIENT_VERSION_MINOR 5
+#define CLIENT_VERSION_REVISION 0
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 #define CLIENT_VERSION_MINOR 5
 #define CLIENT_VERSION_REVISION 0

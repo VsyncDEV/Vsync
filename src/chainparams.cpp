@@ -56,6 +56,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(200000, uint256("0x00000000025e7ab5beaf0c52f108e098660b1a069df2f7f693755e4262ea152e"))
 	(220000, uint256("0x00000000001b5bdc9e4dd9d5f60b9c95e2f7a9eb23407f429bcb07cd35ff8073"))
 <<<<<<< HEAD
+<<<<<<< HEAD
 	(297890, uint256("0x84f3a6e4f4f8e5ff5723cf0bf51ac9697d79440325948622eca61e7ca80de6ea"));
 
 static const Checkpoints::CCheckpointData data = {
@@ -63,6 +64,8 @@ static const Checkpoints::CCheckpointData data = {
     1522769690, // * UNIX timestamp of last checkpoint block
     374417,    // * total number of transactions between genesis and last checkpoint
 =======
+=======
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 	(259230, uint256("0x12f886a6dd06fe14862d38f2ef6a65fffe1c789eebe9a3e5834b744904ff027c"))
 	(276181, uint256("0x694e15a11b410cad9c25c09b129b8d06d03586595fa1b0311d08bc9be164f7a5"))
 	(277129, uint256("0x8c6285e8b9c2452bfa4db79b429df92b4ad8455819840ac6a1dbbf4c47984bf7"))
@@ -78,6 +81,9 @@ static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1521574776, // * UNIX timestamp of last checkpoint block
     334460,    // * total number of transactions between genesis and last checkpoint
+<<<<<<< HEAD
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
+=======
 >>>>>>> parent of c3453a9d3... Preperation of new wallet
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2880        // * estimated number of transactions per day after checkpoint
@@ -391,7 +397,11 @@ bool SelectParamsFromCommandLine()
     SelectParams(network);
     return true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 }
 >>>>>>> parent of c3453a9d3... Preperation of new wallet

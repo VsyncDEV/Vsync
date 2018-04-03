@@ -13,7 +13,11 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const int PROTOCOL_VERSION = 70715;
+=======
+static const int PROTOCOL_VERSION = 70712;
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 static const int PROTOCOL_VERSION = 70712;
 >>>>>>> parent of c3453a9d3... Preperation of new wallet
@@ -23,17 +27,23 @@ static const int INIT_PROTO_VERSION = 209;
 
 //! In this version, 'getheaders' was introduced.
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const int GETHEADERS_VERSION = 70715;
 
 //! disconnect from peers older than this proto version
 static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70715;
 static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70715;
 =======
+=======
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 static const int GETHEADERS_VERSION = 70710;
 
 //! disconnect from peers older than this proto version
 static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70710;
 static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70710;
+<<<<<<< HEAD
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
+=======
 >>>>>>> parent of c3453a9d3... Preperation of new wallet
 
 //! nTime field added to CAddress, starting with this version;

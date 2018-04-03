@@ -2,8 +2,13 @@ dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
 define(_CLIENT_VERSION_MAJOR, 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 define(_CLIENT_VERSION_MINOR, 6)
 define(_CLIENT_VERSION_REVISION, 5)
+=======
+define(_CLIENT_VERSION_MINOR, 5)
+define(_CLIENT_VERSION_REVISION, 0)
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 define(_CLIENT_VERSION_MINOR, 5)
 define(_CLIENT_VERSION_REVISION, 0)

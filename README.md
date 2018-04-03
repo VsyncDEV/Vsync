@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2><strong>Vsync Staging Repository (Version 3.6.5.0)</strong></h2>
 <<<<<<< HEAD
 <p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048.0</p>
 =======
 <p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=2133048</p>
 >>>>>>> d692d04895efabfe95334b5ea56662bad980aa22
+=======
+<h2><strong>Vsync Staging Repository (Version 3.5.0.0)</strong></h2>
+<p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=1871611.0</p>
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 <h2><strong>Vsync Staging Repository (Version 3.5.0.0)</strong></h2>
 <p>More information at vsync.pw Visit our ANN thread at https://bitcointalk.org/index.php?topic=1871611.0</p>
@@ -67,7 +72,11 @@
 <p>&nbsp;</p>
 <p>Vsync is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p>Anonymized transactions using coin mixing technology, we call it <em>Obfuscation</em>.</p>
+=======
+<p>Anonymized transactions using zero knowledge protocol, we call it <em>Zerocoin</em>.</p>
+>>>>>>> parent of c3453a9d3... Preperation of new wallet
 =======
 <p>Anonymized transactions using zero knowledge protocol, we call it <em>Zerocoin</em>.</p>
 >>>>>>> parent of c3453a9d3... Preperation of new wallet
