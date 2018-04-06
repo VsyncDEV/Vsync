@@ -4321,11 +4321,6 @@ bool CWallet::CreateZerocoinSpendTransaction(CAmount nValue, int nSecurityLevel,
                 txNew.vin.push_back(newTxIn);
             }
 
-            unsigned int nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
-            if (nBytes >= MAX_ZEROCOIN_TX_SIZE) {
-                receipt.SetStatus(_("In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins"), ZVSX_TX_TOO_LARGE);
-                return false;
-            }
             //now that all inputs have been added, add full tx hash to zerocoinspend records and write to db
             uint256 txHash = txNew.GetHash();
             for (CZerocoinSpend spend : receipt.GetSpends()) {
@@ -4518,10 +4513,6 @@ string CWallet::MintZerocoin(CAmount nValue, CWalletTx& wtxNew, vector<CZerocoin
     wtxNew = CWalletTx(this, txNew);
     wtxNew.fFromMe = true;
     wtxNew.fTimeReceivedIsTxTime = true;
-    unsigned int nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
-    if (nBytes >= MAX_ZEROCOIN_TX_SIZE) {
-        return _("Error: The transaction is larger than the maximum allowed transaction size!");
-    }
 
     //commit the transaction to the network
     if (!CommitTransaction(wtxNew, reservekey)) {
