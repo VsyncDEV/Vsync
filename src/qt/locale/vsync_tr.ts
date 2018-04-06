@@ -726,6 +726,10 @@
         <translation>Güncel</translation>
     </message>
     <message>
+        <source>%1 behind</source>
+        <translation>%1 geride</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
         <translation>Yakalanıyor...</translation>
     </message>
@@ -1209,17 +1213,6 @@ Adres: %4</translation>
     <message>
         <source>Removed </source>
         <translation>Silindi</translation>
-    </message>
-    </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Tutar:</translation>
     </message>
     </context>
 <context>

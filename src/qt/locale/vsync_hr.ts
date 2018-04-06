@@ -207,10 +207,6 @@
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Tip</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
@@ -299,17 +295,6 @@
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
-    </message>
-    </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Iznos:</translation>
     </message>
     </context>
 <context>

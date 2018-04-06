@@ -94,9 +94,6 @@
     <name>MultiSendDialog</name>
     </context>
 <context>
-    <name>MultisigDialog</name>
-    </context>
-<context>
     <name>ObfuscationConfig</name>
     </context>
 <context>
