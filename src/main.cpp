@@ -4878,7 +4878,6 @@ bool static LoadBlockIndexDB()
         //all of the block has perculated through the code. The block and the index should both be
         //transaction database (pcoinsTip) was not flushed to disk, and is therefore not in sync with
         //the block index database.
-		string strError = "";
             if (!mapBlockIndex.count(pcoinsTip->GetBestBlock())) {
                 strError = "The wallet has been not been closed gracefully, causing the transaction database to be out of sync with the block database";
                 return false;
@@ -4888,7 +4887,7 @@ bool static LoadBlockIndexDB()
 
         //try reading the block from the last index we have
         bool isFixed = true;
-        
+        string strError = "";
         LogPrintf("%s: Attempting to re-add last block that was recorded to disk\n", __func__);
 
         //get the index associated with the point in the chain that pcoinsTip is synced to
@@ -4939,6 +4938,10 @@ bool static LoadBlockIndexDB()
         vinfoBlockFile[nLastBlockFile].nSize = pindexLast->GetBlockPos().nPos + ::GetSerializeSize(lastBlock, SER_DISK, CLIENT_VERSION);;
         setDirtyFileInfo.insert(nLastBlockFile);
         FlushStateToDisk(state, FLUSH_STATE_ALWAYS);
+
+        // Save the updates to disk
+            if (!view.Flush() || !pcoinsTip->Flush())
+                LogPrintf("%s : failed to flush view\n", __func__);
 
             LogPrintf("%s: Last block properly recorded: #%d %s\n", __func__, pindexLastMeta->nHeight,
                       pindexLastMeta->GetBlockHash().ToString().c_str());
