@@ -426,8 +426,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zVSX</source>
-        <translation>Řešení soukromí pro zVSX</translation>
+        <source>Privacy Actions for zPIV</source>
+        <translation>Řešení soukromí pro zPIV</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -726,8 +726,8 @@
         <translation>Vsync Core klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Vsync network</source>
-        <translation><numerusform>Aktivních připojení do sítě Vsync: %n</numerusform><numerusform>Aktivních připojení do sítě Vsync: %n</numerusform><numerusform>Aktivních připojení do sítě Vsync: %n</numerusform></translation>
+        <source>%n active connection(s) to PIVX network</source>
+        <translation><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>

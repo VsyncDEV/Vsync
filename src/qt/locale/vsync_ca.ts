@@ -1302,8 +1302,8 @@
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 VSX</source>
-        <translation>0.000 000 00 VSX</translation>
+        <source>0.000 000 00 PIV</source>
+        <translation>0.000 000 00 PIV</translation>
     </message>
     <message>
         <source>Recent transactions</source>
