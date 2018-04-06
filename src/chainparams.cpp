@@ -121,8 +121,8 @@ public:
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
 		nBlockEnforceInvalidUTXO = 350000;
-        nZerocoinStartTime = 1524344400; //Saturday 21 April 2018 21:00:00 UTC
-		nZerocoinStartHeight = 300000;
+        nZerocoinStartTime = 1526479200; // Wednesday 16 May 2018 14:00:00 UTC
+		nZerocoinStartHeight = 315100;
 		
 		const char* pszTimestamp = "Vsync 27-08-2017";
 		
